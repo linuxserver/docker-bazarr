@@ -14,7 +14,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # linuxserver/bazarr
 
-[Bazarr][appurl] is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr take care of everything for you.  
+[Bazarr][appurl] is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.  
 
 [![bazarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png)][appurl]
 
