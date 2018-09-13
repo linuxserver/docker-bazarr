@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+	s6-setuidgid abc python /app/bazarr/bazarr.py \
+--no-update --config /config
