@@ -2,4 +2,4 @@
 
 exec \
 	s6-setuidgid abc python /app/bazarr/bazarr.py \
---no-update --config /config
+	--no-update --config /config
