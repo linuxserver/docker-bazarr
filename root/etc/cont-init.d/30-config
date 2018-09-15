@@ -2,6 +2,5 @@
 
 # permissions
 chown -R abc:abc \
-	/config \
-	/app
-
+	/app \
+	/config
