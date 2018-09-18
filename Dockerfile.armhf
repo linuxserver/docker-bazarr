@@ -21,7 +21,7 @@ RUN \
  tar xf \
  /tmp/bazarr.tar.gz -C \
 	/app/bazarr --strip-components=1 && \
-  rm -rf \
+ rm -rf \
 	/tmp/*
 
 # add local files
