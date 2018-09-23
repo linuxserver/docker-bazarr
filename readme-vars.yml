@@ -1,0 +1,38 @@
+---
+
+# project information
+project_name: bazarr
+project_url: "https://github.com/morpheus65535/bazarr"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png"
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "tbc"}
+  - { arch: "{{ arch_arm64 }}", tag: "tbc"}
+  - { arch: "{{ arch_armhf }}", tag: "tbc"}
+
+# container parameters
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "</path/to/bazarr/config>", desc: "Bazarr data" }
+  - { vol_path: "/movies", vol_host_path: "</path/to/movies>", desc: "Location of your movies" }
+  - { vol_path: "/tv", vol_host_path: "</path/to/tv", desc: "Location of your TV Shows" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver." }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  - Once running the URL will be `http://<host-ip>:6767`.
+  - You must complete all the setup parameters in the webui before you can save the config.
+
+# changelog
+changelogs:
+  - { date: "11.09.18:", desc: "Initial release." }
