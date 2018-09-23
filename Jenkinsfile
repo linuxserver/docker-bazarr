@@ -93,6 +93,14 @@ pipeline {
        }
      }
     }
+    // If this is a stable or devel github release generate the link for the build message
+    stage("Set ENV github_link"){
+     steps{
+       script{
+         env.RELEASE_LINK = 'https://github.com/' + env.EXT_USER + '/' + env.EXT_REPO + '/releases/tag/' + env.EXT_RELEASE
+       }
+     }
+    }
     // If this is a master build use live docker endpoints
     stage("Set ENV live build"){
       when {
