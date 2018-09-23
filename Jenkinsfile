@@ -4,6 +4,9 @@ pipeline {
   }
   // Configuraiton for the variables used for this specific repo
   environment {
+    EXT_GIT_BRANCH = 'master'
+    EXT_USER = 'morpheus65535'
+    EXT_REPO = 'bazarr'
     BUILD_VERSION_ARG = 'BAZARR_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-bazarr'
@@ -15,13 +18,13 @@ pipeline {
     GITHUB_TOKEN = credentials('498b4638-2d02-4ce5-832d-8a57d01d97ab')
     DIST_IMAGE = 'alpine'
     DIST_TAG = '3.8'
-    DIST_PACKAGES = ''
+    DIST_PACKAGES = 'none'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
-    CI_PORT='80'
+    CI_PORT='6767'
     CI_SSL='false'
-    CI_DELAY='20'
+    CI_DELAY='120'
     CI_AUTH='user:password'
     CI_WEBPATH=''
   }
@@ -69,27 +72,24 @@ pipeline {
     /* #######################
        Package Version Tagging
        ####################### */
-    // If this is an alpine base image determine the base package tag to use
-    stage("Set Package tag Alpine"){
+    // If this does not track package tags
+    stage("Set Package tag None"){
       steps{
-        sh '''docker pull alpine:${DIST_TAG}'''
         script{
-          env.PACKAGE_TAG = sh(
-            script: '''docker run --rm alpine:${DIST_TAG} sh -c 'apk update --quiet\
-                       && apk info '"${DIST_PACKAGES}"' | md5sum | cut -c1-8' ''',
-            returnStdout: true).trim()
+          env.PACKAGE_TAG = 'none'
         }
       }
     }
     /* ########################
        External Release Tagging
        ######################## */
-    // If this is an os release set release type to none to indicate no external release
-    stage("Set ENV os"){
+    // If this is a stable github release use the latest endpoint from github to determine the ext tag
+    stage("Set ENV github_stable"){
      steps{
        script{
-         env.EXT_RELEASE = env.PACKAGE_TAG
-         env.RELEASE_LINK = 'none'
+         env.EXT_RELEASE = sh(
+           script: '''curl -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases/latest | jq -r '. | .tag_name' ''',
+           returnStdout: true).trim()
        }
      }
     }
@@ -418,11 +418,11 @@ pipeline {
              "tagger": {"name": "LinuxServer Jenkins","email": "jenkins@linuxserver.io","date": "'${GITHUB_DATE}'"}}' '''
         echo "Pushing New release for Tag"
         sh '''#! /bin/bash
-              echo "Updating base packages to ${PACKAGE_TAG}" > releasebody.json
+              curl -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/releases/latest | jq '. |.body' | sed 's:^.\\(.*\\).$:\\1:' > releasebody.json
               echo '{"tag_name":"'${EXT_RELEASE}'-pkg-'${PACKAGE_TAG}'-ls'${LS_TAG_NUMBER}'",\
                      "target_commitish": "master",\
                      "name": "'${EXT_RELEASE}'-pkg-'${PACKAGE_TAG}'-ls'${LS_TAG_NUMBER}'",\
-                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n**OS Changes:**\\n\\n' > start
+                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n**'${EXT_REPO}' Changes:**\\n\\n' > start
               printf '","draft": false,"prerelease": false}' >> releasebody.json
               paste -d'\\0' start releasebody.json > releasebody.json.done
               curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/releases -d @releasebody.json.done'''
@@ -448,7 +448,7 @@ pipeline {
                   -e DOCKERHUB_USERNAME=$DOCKERUSER \
                   -e DOCKERHUB_PASSWORD=$DOCKERPASS \
                   -e GIT_REPOSITORY=${LS_USER}/${LS_REPO} \
-                  -e DOCKER_REPOSITORY=${DOCKERHUB_IMAGE} \
+                  -e DOCKER_REPOSITORY=${IMAGE} \
                   -e GIT_BRANCH=master \
                   lsiodev/readme-sync bash -c 'node sync' '''
         }
