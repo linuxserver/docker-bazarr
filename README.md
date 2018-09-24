@@ -61,6 +61,11 @@ docker create \
   linuxserver/bazarr
 ```
 
+You can choose between ,using tags, various branch versions of bazarr, no tag is required to remain on the main branch.
+Add one of the tags,  if required,  to the linuxserver/bazarr line of the run/create command in the following format, linuxserver/bazarr:development
+The development tag will be the latest commit in the development branch of bazarr.
+HOWEVER , USE THE DEVELOPMENT BRANCH AT YOUR OWN PERIL !!!!!!!!!
+
 
 ### docker-compose
 

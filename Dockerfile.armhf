@@ -13,8 +13,8 @@ LABEL maintainer="chbmb"
 RUN \
  echo "**** install bazarr ****" && \
  if [ -z ${BAZARR_VERSION+x} ]; then \
-	BAZARR_VERSION=$(curl -sX GET "https://api.github.com/repos/morpheus65535/bazarr/releases/latest" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]'); \
+	BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/commits/development \
+	| awk '/sha/{print $4;exit}' FS='[""]'); \
  fi && \
  curl -o \
  /tmp/bazarr.tar.gz -L \
