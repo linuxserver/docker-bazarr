@@ -22,7 +22,10 @@ RUN \
  /tmp/bazarr.tar.gz -C \
 	/app/bazarr --strip-components=1 && \
  echo "**** fix backports warning in log ****" && \
- touch /usr/lib/python2.7/site-packages/backports/__init__.py && \
+ if [ ! -e /usr/lib/python2.7/site-packages/backports/__init__.py ]; \
+	then \
+ 	touch /usr/lib/python2.7/site-packages/backports/__init__.py ; \
+ fi && \
  rm -rf \
 	/tmp/*
 
