@@ -21,6 +21,7 @@ From August 2018 onwards, Linuxserver are in the midst of switching to a new CI 
 TLDR: Multi-arch support is changing from multiple repos to one repo per container image.
 
 # [linuxserver/bazarr](https://github.com/linuxserver/docker-bazarr)
+[![](https://img.shields.io/discord/354974912613449730.svg?logo=discord&label=LSIO%20Discord&style=flat-square)](https://discord.gg/YWrKVTn)
 [![](https://images.microbadger.com/badges/version/linuxserver/bazarr.svg)](https://microbadger.com/images/linuxserver/bazarr "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/linuxserver/bazarr.svg)](https://microbadger.com/images/linuxserver/bazarr "Get your own version badge on microbadger.com")
 ![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/bazarr.svg)
@@ -58,6 +59,7 @@ docker create \
   -v </path/to/bazarr/config>:/config \
   -v </path/to/movies>:/movies \
   -v </path/to/tv>:/tv \
+  --restart unless-stopped
   linuxserver/bazarr
 ```
 
