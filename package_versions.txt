@@ -36,8 +36,8 @@ lcms2 lcms2-2.9-r1
 libffi libffi-3.2.1-r4
 libwebp libwebp-1.0.0-r0
 openjpeg openjpeg-2.3.0-r0
-libcrypto1.0 libcrypto1.0-1.0.2p-r0
-libssl1.0 libssl1.0-1.0.2p-r0
+libcrypto1.0 libcrypto1.0-1.0.2q-r0
+libssl1.0 libssl1.0-1.0.2q-r0
 expat expat-2.2.5-r0
 gdbm gdbm-1.13-r1
 sqlite-libs sqlite-libs-3.24.0-r0
@@ -48,7 +48,7 @@ libcurl libcurl-7.61.1-r1
 curl curl-7.61.1-r1
 pcre2 pcre2-10.31-r0
 git git-2.18.1-r0
-openssl openssl-1.0.2p-r0
+openssl openssl-1.0.2q-r0
 p7zip p7zip-16.02-r3
 libgpg-error libgpg-error-1.30-r0
 libgcrypt libgcrypt-1.8.3-r0
