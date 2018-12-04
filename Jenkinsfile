@@ -13,7 +13,7 @@ pipeline {
     // Use helper containers to render templated files
     stage('Update-Templates') {
       when {
-        branch "development"
+        branch "master"
         environment name: 'CHANGE_ID', value: ''
         expression {
           env.CONTAINER_NAME != null
@@ -23,13 +23,13 @@ pipeline {
         sh '''#! /bin/bash
               TEMPDIR=$(mktemp -d)
               docker pull linuxserver/jenkins-builder:latest
-              docker run --rm -e CONTAINER_NAME=${CONTAINER_NAME} -e GITHUB_BRANCH=development -v ${TEMPDIR}:/ansible/jenkins linuxserver/jenkins-builder:latest
+              docker run --rm -e CONTAINER_NAME=${CONTAINER_NAME} -e GITHUB_BRANCH=master -v ${TEMPDIR}:/ansible/jenkins linuxserver/jenkins-builder:latest
               docker pull linuxserver/doc-builder:latest
-              docker run --rm -e CONTAINER_NAME=${CONTAINER_NAME} -e GITHUB_BRANCH=development -v ${TEMPDIR}:/ansible/readme linuxserver/doc-builder:latest
+              docker run --rm -e CONTAINER_NAME=${CONTAINER_NAME} -e GITHUB_BRANCH=master -v ${TEMPDIR}:/ansible/readme linuxserver/doc-builder:latest
               if [ "$(md5sum ${TEMPDIR}/${LS_REPO}/Jenkinsfile | awk '{ print $1 }')" != "$(md5sum Jenkinsfile | awk '{ print $1 }')" ] || [ "$(md5sum ${TEMPDIR}/${CONTAINER_NAME}/README.md | awk '{ print $1 }')" != "$(md5sum README.md | awk '{ print $1 }')" ]; then
                 mkdir -p ${TEMPDIR}/repo
                 git clone https://github.com/${LS_USER}/${LS_REPO}.git ${TEMPDIR}/repo/${LS_REPO}
-                git --git-dir ${TEMPDIR}/repo/${LS_REPO}/.git checkout -f development
+                git --git-dir ${TEMPDIR}/repo/${LS_REPO}/.git checkout master
                 cp ${TEMPDIR}/${CONTAINER_NAME}/README.md ${TEMPDIR}/repo/${LS_REPO}/
                 cp ${TEMPDIR}/docker-${CONTAINER_NAME}/Jenkinsfile ${TEMPDIR}/repo/${LS_REPO}/
                 cd ${TEMPDIR}/repo/${LS_REPO}/
