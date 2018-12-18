@@ -8,6 +8,9 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="chbmb"
 
 RUN \
+ echo "**** install packages ****" && \
+ apk add --no-cache \
+	py-gevent && \
  echo "**** install bazarr ****" && \
  if [ -z ${BAZARR_VERSION+x} ]; then \
 	BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/commits/development \
