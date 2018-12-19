@@ -63,3 +63,7 @@ unzip unzip-6.0-r4
 libgd libgd-2.2.5-r1
 vnstat vnstat-1.18-r0
 wget wget-1.19.5-r0
+py-greenlet py-greenlet-0.4.13-r0
+py-gevent py-gevent-1.2.2-r0
+py2-greenlet py2-greenlet-0.4.13-r0
+py2-gevent py2-gevent-1.2.2-r0
