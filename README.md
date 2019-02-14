@@ -126,6 +126,7 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
+
 &nbsp;
 ## Application Setup
 
@@ -142,6 +143,25 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' bazarr`
 * image version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/bazarr`
+
+## Updating Info
+
+Most of our images are static, versioned, and require an image update and container recreation to update the app inside. With some exceptions (ie. nextcloud, plex), we do not recommend or support updating apps inside the container. Please consult the [Application Setup](#application-setup) section above to see if it is recommended for the image.  
+  
+Below are the instructions for updating containers:  
+  
+### Via Docker Run/Create
+* Update the image: `docker pull linuxserver/bazarr`
+* Stop the running container: `docker stop bazarr`
+* Delete the container: `docker rm bazarr`
+* Recreate a new container with the same docker create parameters as instructed above (if mapped correctly to a host folder, your `/config` folder and settings will be preserved)
+* Start the new container: `docker start bazarr`
+* You can also remove the old dangling images: `docker image prune`
+
+### Via Docker Compose
+* Update the image: `docker-compose pull linuxserver/bazarr`
+* Let compose update containers as necessary: `docker-compose up -d`
+* You can also remove the old dangling images: `docker image prune`
 
 ## Versions
 
