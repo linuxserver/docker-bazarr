@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python:3.8
+FROM lsiobase/alpine.python:3.9
 
 # set version label
 ARG BUILD_DATE
