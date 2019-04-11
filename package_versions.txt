@@ -21,7 +21,7 @@ libcurl-7.64.0-r1
 libffi-3.2.1-r6
 libgcc-8.2.0-r2
 libgcrypt-1.8.4-r0
-libgd-2.2.5-r1
+libgd-2.2.5-r3
 libgpg-error-1.33-r0
 libjpeg-turbo-1.5.3-r4
 libpng-1.6.35-r0
@@ -62,7 +62,7 @@ tzdata-2018i-r0
 unrar-5.6.8-r0
 unzip-6.0-r4
 vnstat-1.18-r0
-wget-1.20.1-r0
+wget-1.20.3-r0
 xz-5.2.4-r0
 xz-libs-5.2.4-r0
 zlib-1.2.11-r1
