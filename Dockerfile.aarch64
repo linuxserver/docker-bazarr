@@ -7,7 +7,7 @@ ARG BAZARR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 # hard set UTC in case the user does not define it
-ENV TZ="Etc/UCT"
+ENV TZ="Etc/UTC"
 
 RUN \
 echo "**** install packages ****" && \
