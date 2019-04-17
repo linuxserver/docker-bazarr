@@ -168,6 +168,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **17.04.19:** - Add default UTC timezone if user does not set it.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **22.02.19:** - Rebasing to alpine 3.9.
 * **11.09.18:** - Initial release.
