@@ -19,7 +19,7 @@ libc-utils-0.7.1-r0
 libcrypto1.1-1.1.1b-r1
 libcurl-7.64.0-r1
 libffi-3.2.1-r6
-libgcc-8.2.0-r2
+libgcc-8.3.0-r0
 libgcrypt-1.8.4-r0
 libgd-2.2.5-r3
 libgpg-error-1.33-r0
@@ -27,7 +27,7 @@ libjpeg-turbo-1.5.3-r4
 libpng-1.6.35-r0
 libssh2-1.8.2-r0
 libssl1.1-1.1.1b-r1
-libstdc++-8.2.0-r2
+libstdc++-8.3.0-r0
 libtls-standalone-2.7.4-r6
 libwebp-1.0.1-r0
 libxml2-2.9.9-r1
