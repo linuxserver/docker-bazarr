@@ -24,7 +24,7 @@ libgcrypt-1.8.4-r0
 libgd-2.2.5-r3
 libgpg-error-1.33-r0
 libjpeg-turbo-1.5.3-r4
-libpng-1.6.35-r0
+libpng-1.6.37-r0
 libssh2-1.8.2-r0
 libssl1.1-1.1.1b-r1
 libstdc++-8.3.0-r0
