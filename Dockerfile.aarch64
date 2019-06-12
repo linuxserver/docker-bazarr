@@ -15,6 +15,7 @@ RUN \
     g++ \
     gcc \
 	libxml2-dev \
+	libxslt-dev \
 	python-dev && \
  echo "**** install bazarr ****" && \
  if [ -z ${BAZARR_VERSION+x} ]; then \
