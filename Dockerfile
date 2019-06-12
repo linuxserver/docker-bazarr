@@ -10,9 +10,13 @@ LABEL maintainer="chbmb"
 ENV TZ="Etc/UTC"
 
 RUN \
-echo "**** install packages ****" && \
- apk add --no-cache \
-	py-gevent && \
+ echo "**** install build packages ****" && \
+ apk add --no-cache --virtual=build-dependencies \
+    g++ \
+    gcc \
+	libxml2-dev \
+	libxslt-dev \
+	python-dev && \
  echo "**** install bazarr ****" && \
  if [ -z ${BAZARR_VERSION+x} ]; then \
 	BAZARR_VERSION=$(curl -sX GET "https://api.github.com/repos/morpheus65535/bazarr/releases/latest" \
@@ -26,12 +30,19 @@ echo "**** install packages ****" && \
  tar xf \
  /tmp/bazarr.tar.gz -C \
 	/app/bazarr --strip-components=1 && \
+ echo "**** Install requirements ****" && \
+ pip install --no-cache-dir -U  -r \
+     /app/bazarr/requirements.txt && \ 
  echo "**** fix backports warning in log ****" && \
  if [ ! -e /usr/lib/python2.7/site-packages/backports/__init__.py ]; \
 	then \
  	touch /usr/lib/python2.7/site-packages/backports/__init__.py ; \
  fi && \
+ echo "**** clean up ****" && \
+ apk del --purge \
+    build-dependencies && \
  rm -rf \
+    /root/.cache \
 	/tmp/*
 
 # add local files
