@@ -53,6 +53,7 @@ docker create \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
+  -e UMASK_SET=022 `#optional` \
   -p 6767:6767 \
   -v </path/to/bazarr/config>:/config \
   -v </path/to/movies>:/movies \
@@ -82,6 +83,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
+      - UMASK_SET=022 #optional
     volumes:
       - </path/to/bazarr/config>:/config
       - </path/to/movies>:/movies
@@ -101,6 +103,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e UMASK_SET=022` | control permissions of files and directories created by Bazarr |
 | `-v /config` | Bazarr data |
 | `-v /movies` | Location of your movies |
 | `-v /tv` | Location of your TV Shows |
@@ -188,6 +191,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.06.19:** - Add env variable for setting umask.
 * **12.06.19:** - Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe.
 * **17.04.19:** - Add default UTC timezone if user does not set it.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.

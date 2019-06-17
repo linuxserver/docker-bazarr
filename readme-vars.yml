@@ -35,6 +35,10 @@ param_ports:
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+# optional env variables
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Bazarr"}
 
 # application setup block
 app_setup_block_enabled: true
@@ -44,6 +48,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.06.19:", desc: "Add env variable for setting umask." }
   - { date: "12.06.19:", desc: "Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe." }
   - { date: "17.04.19:", desc: "Add default UTC timezone if user does not set it." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
