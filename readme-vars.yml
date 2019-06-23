@@ -49,6 +49,7 @@ app_setup_block: |
 # changelog
 changelogs:
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
+  - { date: "12.06.19:", desc: "Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe." }
   - { date: "17.04.19:", desc: "Add default UTC timezone if user does not set it." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
