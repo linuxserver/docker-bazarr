@@ -191,6 +191,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.06.19:** - Rebasing to alpine 3.10.
 * **13.06.19:** - Add env variable for setting umask.
 * **12.06.19:** - Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe.
 * **17.04.19:** - Add default UTC timezone if user does not set it.
