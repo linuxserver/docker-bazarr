@@ -1,7 +1,7 @@
 alpine-baselayout-3.1.2-r0
 alpine-keys-2.1-r2
 alsa-lib-1.1.9-r0
-apk-tools-2.10.4-r1
+apk-tools-2.10.4-r2
 bash-5.0.0-r0
 busybox-1.30.1-r2
 ca-certificates-20190108-r0
