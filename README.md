@@ -27,8 +27,8 @@ Find us at:
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-bazarr.svg?style=flat-square&color=E68523)](https://github.com/linuxserver/docker-bazarr/releases)
 [![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/bazarr "Get your own version badge on microbadger.com")
 [![MicroBadger Size](https://img.shields.io/microbadger/image-size/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://microbadger.com/images/linuxserver/bazarr "Get your own version badge on microbadger.com")
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/bazarr/bazarr)
-[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/bazarr/bazarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/bazarr)
+[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/bazarr.svg?style=flat-square&color=E68523)](https://hub.docker.com/r/linuxserver/bazarr)
 [![Build Status](https://ci.linuxserver.io/view/all/job/Docker-Pipeline-Builders/job/docker-bazarr/job/master/badge/icon?style=flat-square)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-bazarr/job/master/)
 [![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/bazarr/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/bazarr/latest/index.html)
 
