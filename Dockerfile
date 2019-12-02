@@ -16,15 +16,14 @@ RUN \
 	gcc \
 	libxml2-dev \
 	libxslt-dev \
-	py2-pip \
-	python2-dev && \
+	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
 	curl \
 	ffmpeg \
 	libxml2 \
 	libxslt \ 
-	python2 \
+	python3 \
 	unrar \
 	unzip && \
  echo "**** install bazarr ****" && \
@@ -42,7 +41,7 @@ RUN \
 	/app/bazarr --strip-components=1 && \
  rm -Rf /app/bazarr/bin && \
  echo "**** Install requirements ****" && \
- pip install --no-cache-dir -U  -r \
+ pip3 install --no-cache-dir -U  -r \
 	/app/bazarr/requirements.txt && \ 
  echo "**** clean up ****" && \
  apk del --purge \
