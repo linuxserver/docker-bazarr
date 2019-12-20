@@ -220,6 +220,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.12.19:** - Rebasing to alpine 3.11.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **13.06.19:** - Add env variable for setting umask.
 * **12.06.19:** - Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe.
