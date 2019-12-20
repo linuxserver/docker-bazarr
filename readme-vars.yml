@@ -48,6 +48,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
   - { date: "12.06.19:", desc: "Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe." }
