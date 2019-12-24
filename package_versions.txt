@@ -8,7 +8,7 @@ ca-certificates-20191127-r0
 ca-certificates-cacert-20191127-r0
 coreutils-8.31-r0
 curl-7.67.0-r0
-expat-2.2.9-r0
+expat-2.2.9-r1
 ffmpeg-4.2.1-r3
 ffmpeg-libs-4.2.1-r3
 fontconfig-2.13.1-r2
