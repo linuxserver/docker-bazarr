@@ -42,7 +42,7 @@ RUN \
 	/app/bazarr --strip-components=1 && \
  rm -Rf /app/bazarr/bin && \
  echo "**** Install requirements ****" && \
- pip install --no-cache-dir -U  -r \
+ pip3 install --no-cache-dir -U  -r \
 	/app/bazarr/requirements.txt && \ 
  echo "**** clean up ****" && \
  apk del --purge \
