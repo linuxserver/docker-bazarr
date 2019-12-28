@@ -16,15 +16,14 @@ RUN \
 	gcc \
 	libxml2-dev \
 	libxslt-dev \
-	py2-pip \
-	python2-dev && \
+	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
 	curl \
 	ffmpeg \
 	libxml2 \
 	libxslt \ 
-	python2 \
+	python3 \
 	unrar \
 	unzip && \
  echo "**** install bazarr ****" && \
