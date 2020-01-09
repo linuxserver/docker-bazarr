@@ -31,7 +31,7 @@ libffi-3.2.1-r6
 libgcc-9.2.0-r3
 libgcrypt-1.8.5-r0
 libgpg-error-1.36-r2
-libjpeg-turbo-2.0.3-r0
+libjpeg-turbo-2.0.4-r0
 libogg-1.3.4-r0
 libpciaccess-0.16-r0
 libpng-1.6.37-r1
