@@ -3,7 +3,7 @@ alpine-keys-2.1-r2
 alsa-lib-1.2.1.2-r0
 apk-tools-2.10.4-r3
 bash-5.0.11-r1
-busybox-1.31.1-r8
+busybox-1.31.1-r9
 ca-certificates-20191127-r0
 ca-certificates-cacert-20191127-r0
 coreutils-8.31-r0
@@ -70,7 +70,7 @@ scanelf-1.2.4-r0
 sdl2-2.0.10-r0
 shadow-4.7-r1
 sqlite-libs-3.30.1-r1
-ssl_client-1.31.1-r8
+ssl_client-1.31.1-r9
 tzdata-2019c-r0
 unrar-5.8.5-r0
 unzip-6.0-r4
