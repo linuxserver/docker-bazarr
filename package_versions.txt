@@ -16,7 +16,7 @@ freetype-2.10.1-r0
 fribidi-1.0.8-r0
 gdbm-1.13-r1
 gmp-6.1.2-r1
-gnutls-3.6.10-r0
+gnutls-3.6.10-r1
 lame-3.100-r0
 libacl-2.2.53-r0
 libass-0.14.0-r0
