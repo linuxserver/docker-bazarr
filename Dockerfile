@@ -22,7 +22,7 @@ RUN \
 	curl \
 	ffmpeg \
 	libxml2 \
-	libxslt \ 
+	libxslt \
 	python3 \
 	unrar \
 	unzip && \
@@ -42,7 +42,7 @@ RUN \
  rm -Rf /app/bazarr/bin && \
  echo "**** Install requirements ****" && \
  pip3 install --no-cache-dir -U  -r \
-	/app/bazarr/requirements.txt && \ 
+	/app/bazarr/requirements.txt && \
  echo "**** clean up ****" && \
  apk del --purge \
 	build-dependencies && \
@@ -55,4 +55,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 6767
-VOLUME /config /movies /tv
+VOLUME /config
