@@ -225,7 +225,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **28.12.19** - Upgrade to Python 3.
+* **08.04.20:** - Removed /movies and /tv volumes from Dockerfiles.
+* **28.12.19:** - Upgrade to Python 3.
 * **19.12.19:** - Rebasing to alpine 3.11.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **13.06.19:** - Add env variable for setting umask.
