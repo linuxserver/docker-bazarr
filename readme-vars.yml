@@ -48,6 +48,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.05.20:", desc: "Add donation links for Bazarr to Github sponsors button and container log." }
   - { date: "08.04.20:", desc: "Removed /movies and /tv volumes from Dockerfiles." }
   - { date: "28.12.19:", desc: "Upgrade to Python 3." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
