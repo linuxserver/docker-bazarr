@@ -225,6 +225,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.05.20:** - Add donation links for Bazarr to container log.
 * **08.04.20:** - Removed /movies and /tv volumes from Dockerfiles.
 * **19.12.19:** - Rebasing to alpine 3.11.
 * **28.06.19:** - Rebasing to alpine 3.10.

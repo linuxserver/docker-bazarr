@@ -29,3 +29,6 @@ repo_vars:
   - CI_DOCKERENV='TZ=US/Pacific'
   - CI_AUTH='user:password'
   - CI_WEBPATH=''
+sponsor_links:
+  - { name: "Bazarr - PayPal", url: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url" }
+  - { name: "Bazarr - Beerpay", url: "https://beerpay.io/morpheus65535/bazarr" }
