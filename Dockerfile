@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.11
+FROM lsiobase/alpine:3.12
 
 # set version label
 ARG BUILD_DATE
@@ -16,6 +16,7 @@ RUN \
 	gcc \
 	libxml2-dev \
 	libxslt-dev \
+	py3-pip \
 	python3-dev && \
  echo "**** install packages ****" && \
  apk add --no-cache \
