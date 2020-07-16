@@ -11,8 +11,8 @@ ca-certificates-bundle-20191127-r4
 coreutils-8.32-r0
 curl-7.69.1-r0
 expat-2.2.9-r1
-ffmpeg-4.3-r0
-ffmpeg-libs-4.3-r0
+ffmpeg-4.3.1-r0
+ffmpeg-libs-4.3.1-r0
 fontconfig-2.13.1-r2
 freetype-2.10.2-r0
 fribidi-1.0.9-r0
