@@ -79,7 +79,7 @@ sqlite-libs-3.32.1-r0
 ssl_client-1.31.1-r19
 tzdata-2020a-r0
 unrar-5.9.2-r0
-unzip-6.0-r7
+unzip-6.0-r8
 v4l-utils-libs-1.20.0-r0
 wayland-libs-client-1.18.0-r4
 x264-libs-20191119-r1
