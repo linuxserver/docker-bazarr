@@ -48,6 +48,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.12." }
   - { date: "13.05.20:", desc: "Add donation links for Bazarr to container log." }
   - { date: "08.04.20:", desc: "Removed /movies and /tv volumes from Dockerfiles." }
