@@ -36,9 +36,7 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional env variables
-opt_param_usage_include_env: true
-opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Bazarr"}
+opt_param_usage_include_env: false
 
 # application setup block
 app_setup_block_enabled: true
@@ -49,6 +47,7 @@ app_setup_block: |
 # changelog
 changelogs:
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
+  - { date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
   - { date: "13.05.20:", desc: "Add donation links for Bazarr to Github sponsors button and container log." }
   - { date: "08.04.20:", desc: "Removed /movies and /tv volumes from Dockerfiles." }
