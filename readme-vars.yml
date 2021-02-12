@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
   - { date: "13.05.20:", desc: "Add donation links for Bazarr to Github sponsors button and container log." }
