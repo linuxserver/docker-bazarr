@@ -230,6 +230,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.01.21:** - Rebasing to alpine 3.13.
 * **23.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **01.06.20:** - Rebasing to alpine 3.12.
 * **13.05.20:** - Add donation links for Bazarr to Github sponsors button and container log.
