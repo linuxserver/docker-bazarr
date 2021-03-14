@@ -14,6 +14,7 @@ RUN \
  apk add --no-cache --virtual=build-dependencies \
 	g++ \
 	gcc \
+	jq \
 	libxml2-dev \
 	libxslt-dev \
 	py3-pip \
@@ -29,8 +30,8 @@ RUN \
 	unzip && \
  echo "**** install bazarr ****" && \
  if [ -z ${BAZARR_VERSION+x} ]; then \
-	BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/commits/development \
-	| awk '/sha/{print $4;exit}' FS='[""]'); \
+	BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/releases \
+	| jq -r '.[0] | .tag_name'); \
  fi && \
  curl -o \
  /tmp/bazarr.tar.gz -L \
