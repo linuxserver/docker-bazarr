@@ -2,7 +2,7 @@
 
 # jenkins variables
 project_name: docker-bazarr
-external_type: github_commit
+external_type: github_devel
 release_type: prerelease
 release_tag: development
 ls_branch: development
@@ -18,8 +18,6 @@ repo_vars:
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/bazarr'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/bazarr'
   - DIST_IMAGE = 'alpine'
-  - DIST_TAG = '3.8'
-  - DIST_PACKAGES = 'none'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'
