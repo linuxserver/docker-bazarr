@@ -42,6 +42,7 @@ RUN \
  /tmp/bazarr.tar.gz -C \
 	/app/bazarr --strip-components=1 && \
  rm -Rf /app/bazarr/bin && \
+ echo "UpdateMethod=docker\nBranch=development\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/bazarr/package_info && \
  echo "**** Install requirements ****" && \
  pip3 install --no-cache-dir -U  -r \
 	/app/bazarr/requirements.txt && \
