@@ -37,15 +37,15 @@ RUN \
  /tmp/bazarr.tar.gz -L \
 	"https://github.com/morpheus65535/bazarr/archive/${BAZARR_VERSION}.tar.gz" && \
  mkdir -p \
-	/app/bazarr && \
+	/app/bazarr/bin && \
  tar xf \
  /tmp/bazarr.tar.gz -C \
-	/app/bazarr --strip-components=1 && \
- rm -Rf /app/bazarr/bin && \
+	/app/bazarr/bin --strip-components=1 && \
+ rm -Rf /app/bazarr/bin/bin && \
  echo "UpdateMethod=docker\nBranch=development\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/bazarr/package_info && \
  echo "**** Install requirements ****" && \
  pip3 install --no-cache-dir -U  -r \
-	/app/bazarr/requirements.txt && \
+	/app/bazarr/bin/requirements.txt && \
  echo "**** clean up ****" && \
  apk del --purge \
 	build-dependencies && \

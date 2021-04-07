@@ -6,5 +6,5 @@ if [ -n "${UMASK_SET}" ] && [ -z "${UMASK}" ]; then
 fi
 
 exec \
-	s6-setuidgid abc python3 /app/bazarr/bazarr.py \
+	s6-setuidgid abc python3 /app/bazarr/bin/bazarr.py \
 	--no-update --config /config
