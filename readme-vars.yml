@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.04.21:", desc: "Move app to /app/bazarr/bin." }
   - { date: "13.03.21:", desc: "Build from Github pre-releases." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
