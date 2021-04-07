@@ -56,6 +56,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable releases from Bazarr |
+| development | Pre-releases from Bazarr |
 
 ## Usage
 
@@ -77,9 +85,9 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - </path/to/bazarr/config>:/config
-      - </path/to/movies>:/movies
-      - </path/to/tv>:/tv
+      - /path/to/bazarr/config:/config
+      - /path/to/movies:/movies #optional
+      - /path/to/tv:/tv #optional
     ports:
       - 6767:6767
     restart: unless-stopped
@@ -94,17 +102,12 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Europe/London \
   -p 6767:6767 \
-  -v </path/to/bazarr/config>:/config \
-  -v </path/to/movies>:/movies \
-  -v </path/to/tv>:/tv \
+  -v /path/to/bazarr/config:/config \
+  -v /path/to/movies:/movies `#optional` \
+  -v /path/to/tv:/tv `#optional` \
   --restart unless-stopped \
   ghcr.io/linuxserver/bazarr
 ```
-
-You can choose between ,using tags, various branch versions of bazarr, no tag is required to remain on the main branch.
-Add one of the tags,  if required,  to the linuxserver/bazarr line of the run/create command in the following format, linuxserver/bazarr:development
-The development tag will be the latest commit in the development branch of bazarr.
-HOWEVER , USE THE DEVELOPMENT BRANCH AT YOUR OWN PERIL !!!!!!!!!
 
 
 ## Parameters
@@ -230,6 +233,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **07.04.21:** - Move app to /app/bazarr/bin, add `package_info`.
 * **23.01.21:** - Rebasing to alpine 3.13.
 * **23.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **01.06.20:** - Rebasing to alpine 3.12.

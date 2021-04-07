@@ -13,22 +13,17 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
-# Optional Block
-optional_block_1: true
-optional_block_1_items:
-  - |
-    You can choose between ,using tags, various branch versions of bazarr, no tag is required to remain on the main branch.
-    Add one of the tags,  if required,  to the linuxserver/bazarr line of the run/create command in the following format, linuxserver/bazarr:development
-    The development tag will be the latest commit in the development branch of bazarr.
-    HOWEVER , USE THE DEVELOPMENT BRANCH AT YOUR OWN PERIL !!!!!!!!!
+  # development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable releases from Bazarr" }
+  - { tag: "development", desc: "Pre-releases from Bazarr" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "</path/to/bazarr/config>", desc: "Bazarr data" }
-  - { vol_path: "/movies", vol_host_path: "</path/to/movies>", desc: "Location of your movies" }
-  - { vol_path: "/tv", vol_host_path: "</path/to/tv>", desc: "Location of your TV Shows" }
+  - { vol_path: "/config", vol_host_path: "/path/to/bazarr/config", desc: "Bazarr data" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver." }
@@ -37,6 +32,10 @@ param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional env variables
 opt_param_usage_include_env: false
+opt_param_usage_include_vols: true
+opt_param_volumes:
+  - { vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of your movies" }
+  - { vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of your TV Shows" }
 
 # application setup block
 app_setup_block_enabled: true
@@ -46,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "07.04.21:", desc: "Move app to /app/bazarr/bin, add `package_info`." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
