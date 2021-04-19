@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.04.21:", desc: "Install from release zip." }
   - { date: "07.04.21:", desc: "Move app to /app/bazarr/bin." }
   - { date: "13.03.21:", desc: "Build from Github pre-releases." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
