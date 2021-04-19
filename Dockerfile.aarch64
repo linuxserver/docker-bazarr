@@ -10,48 +10,47 @@ LABEL maintainer="chbmb"
 ENV TZ="Etc/UTC"
 
 RUN \
- echo "**** install build packages ****" && \
- apk add --no-cache --virtual=build-dependencies \
-	g++ \
-	gcc \
-	jq \
-	libxml2-dev \
-	libxslt-dev \
-	py3-pip \
-	python3-dev && \
- echo "**** install packages ****" && \
- apk add --no-cache \
-	curl \
-	ffmpeg \
-	libxml2 \
-	libxslt \
-	python3 \
-	unrar \
-	unzip && \
- echo "**** install bazarr ****" && \
- if [ -z ${BAZARR_VERSION+x} ]; then \
-	BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/releases \
-	| jq -r '.[0] | .tag_name'); \
- fi && \
- curl -o \
- /tmp/bazarr.tar.gz -L \
-	"https://github.com/morpheus65535/bazarr/archive/${BAZARR_VERSION}.tar.gz" && \
- mkdir -p \
-	/app/bazarr/bin && \
- tar xf \
- /tmp/bazarr.tar.gz -C \
-	/app/bazarr/bin --strip-components=1 && \
- rm -Rf /app/bazarr/bin/bin && \
- echo "UpdateMethod=docker\nBranch=development\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/bazarr/package_info && \
- echo "**** Install requirements ****" && \
- pip3 install --no-cache-dir -U  -r \
-	/app/bazarr/bin/requirements.txt && \
- echo "**** clean up ****" && \
- apk del --purge \
-	build-dependencies && \
- rm -rf \
-	/root/.cache \
-	/tmp/*
+  echo "**** install build packages ****" && \
+  apk add --no-cache --virtual=build-dependencies \
+    g++ \
+    gcc \
+    libxml2-dev \
+    libxslt-dev \
+    py3-pip \
+    python3-dev && \
+  echo "**** install packages ****" && \
+  apk add --no-cache \
+    curl \
+    ffmpeg \
+    libxml2 \
+    libxslt \
+    python3 \
+    unrar \
+    unzip && \
+  echo "**** install bazarr ****" && \
+  if [ -z ${BAZARR_VERSION+x} ]; then \
+    BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/releases \
+    | jq -r '.[0] | .tag_name'); \
+  fi && \
+  curl -o \
+    /tmp/bazarr.zip -L \
+    "https://github.com/morpheus65535/bazarr/releases/download/${BAZARR_VERSION}/bazarr.zip" && \
+  mkdir -p \
+    /app/bazarr/bin && \
+  unzip \
+    /tmp/bazarr.zip -d \
+    /app/bazarr/bin && \
+  rm -Rf /app/bazarr/bin/bin && \
+  echo "UpdateMethod=docker\nBranch=master\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/bazarr/package_info && \
+  echo "**** Install requirements ****" && \
+  pip3 install --no-cache-dir -U  -r \
+    /app/bazarr/bin/requirements.txt && \
+  echo "**** clean up ****" && \
+  apk del --purge \
+    build-dependencies && \
+  rm -rf \
+    /root/.cache \
+    /tmp/*
 
 # add local files
 COPY root/ /
