@@ -19,8 +19,6 @@ RUN \
     libffi-dev \
     libxml2-dev \
     libxslt-dev \
-    py3-pip \
-    py3-wheel \
     python3-dev && \
   echo "**** install packages ****" && \
   apk add --no-cache \
@@ -28,6 +26,7 @@ RUN \
     ffmpeg \
     libxml2 \
     libxslt \
+    py3-pip \
     python3 \
     unrar \
     unzip && \
