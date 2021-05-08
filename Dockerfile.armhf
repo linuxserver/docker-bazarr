@@ -12,11 +12,15 @@ ENV TZ="Etc/UTC"
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
+    build-base \
     g++ \
     gcc \
+    jq \
+    libffi-dev \
     libxml2-dev \
     libxslt-dev \
     py3-pip \
+    py3-wheel \
     python3-dev && \
   echo "**** install packages ****" && \
   apk add --no-cache \
