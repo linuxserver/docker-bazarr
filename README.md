@@ -234,6 +234,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.05.21:** - Use wheel index.
 * **19.04.21:** - Install from release zip.
 * **07.04.21:** - Move app to /app/bazarr/bin.
 * **13.03.21:** - Build from Github pre-releases.
