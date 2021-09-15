@@ -36,7 +36,7 @@ libdav1d-0.8.1-r0
 libdrm-2.4.104-r0
 libffi-3.3-r2
 libgcc-10.2.1_pre1-r3
-libgcrypt-1.8.8-r0
+libgcrypt-1.8.8-r1
 libgomp-10.2.1_pre1-r3
 libgpg-error-1.41-r0
 libintl-0.20.2-r2
