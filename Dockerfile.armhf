@@ -27,6 +27,7 @@ RUN \
     ffmpeg \
     libxml2 \
     libxslt \
+    openblas \
     py3-pip \
     python3 \
     unrar \

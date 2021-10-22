@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "22.10.21:", desc: "Added openblas package to prevent numpy error." }
   - { date: "16.05.21:", desc: "Use wheel index." }
   - { date: "19.04.21:", desc: "Install from release zip." }
   - { date: "07.04.21:", desc: "Move app to /app/bazarr/bin." }
