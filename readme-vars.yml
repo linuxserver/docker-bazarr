@@ -45,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel." }
   - { date: "22.10.21:", desc: "Added openblas package to prevent numpy error." }
   - { date: "16.05.21:", desc: "Use wheel index." }
   - { date: "19.04.21:", desc: "Install from release zip." }
