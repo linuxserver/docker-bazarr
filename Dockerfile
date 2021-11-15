@@ -48,6 +48,7 @@ RUN \
   echo "UpdateMethod=docker\nBranch=master\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/bazarr/package_info && \
   echo "**** Install requirements ****" && \
   pip3 install -U --no-cache-dir pip && \
+  pip install lxml --no-binary :all: && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine/  -r \
     /app/bazarr/bin/requirements.txt && \
   echo "**** clean up ****" && \
