@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "15.11.21:", desc: "Temp fix for lxml on amd64, compile it instead of using official wheel that seems to be broken." }
   - { date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel." }
   - { date: "22.10.21:", desc: "Added openblas package to prevent numpy error." }
   - { date: "16.05.21:", desc: "Use wheel index." }
