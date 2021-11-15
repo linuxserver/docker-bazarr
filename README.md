@@ -236,6 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.15.21:** - Temp fix for lxml, compile from scratch to avoid broken official wheel.
 * **25.10.21:** - Rebase to alpine 3.14. Fix numpy wheel.
 * **22.10.21:** - Added openblas package to prevent numpy error.
 * **16.05.21:** - Use wheel index.
