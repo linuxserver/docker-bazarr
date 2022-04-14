@@ -127,6 +127,6 @@ wayland-libs-client-1.19.0-r0
 x264-libs-20210211-r0
 x265-libs-3.4-r0
 xvidcore-1.3.7-r1
-xz-5.2.5-r0
+xz-5.2.5-r1
 xz-libs-5.2.5-r1
 zlib-1.2.12-r0
