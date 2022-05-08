@@ -14,7 +14,7 @@ expat-2.4.7-r0
 ffmpeg-4.4.1-r0
 ffmpeg-libs-4.4.1-r0
 fontconfig-2.13.1-r4
-freetype-2.10.4-r1
+freetype-2.10.4-r2
 fribidi-1.0.10-r0
 gdbm-1.19-r0
 glib-2.68.3-r0
