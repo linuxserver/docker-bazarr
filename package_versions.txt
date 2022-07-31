@@ -19,7 +19,7 @@ fribidi-1.0.10-r0
 gdbm-1.19-r0
 glib-2.68.3-r0
 gmp-6.2.1-r1
-gnutls-3.7.1-r0
+gnutls-3.7.1-r1
 graphite2-1.3.14-r0
 harfbuzz-2.8.1-r0
 lame-3.100-r0
