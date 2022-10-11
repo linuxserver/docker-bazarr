@@ -31,6 +31,17 @@ RUN \
     py3-pip \
     python3 \
     unzip && \
+  echo "**** install unrar from source ****" && \
+  mkdir /tmp/unrar && \
+  curl -o \
+    /tmp/unrar.tar.gz -L \
+    "https://www.rarlab.com/rar/unrarsrc-${UNRAR_VERSION}.tar.gz" && \  
+  tar xf \
+    /tmp/unrar.tar.gz -C \
+    /tmp/unrar --strip-components=1 && \
+  cd /tmp/unrar && \
+  make && \
+  install -v -m755 unrar /usr/local/bin && \
   echo "**** install bazarr ****" && \
   if [ -z ${BAZARR_VERSION+x} ]; then \
     BAZARR_VERSION=$(curl -sX GET "https://api.github.com/repos/morpheus65535/bazarr/releases/latest" \
