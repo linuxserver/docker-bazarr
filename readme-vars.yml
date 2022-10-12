@@ -45,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "11.10.22:", desc: "Rebase master branch to Alpine 3.16, migrate to s6v3." }
   - { date: "15.15.21:", desc: "Temp fix for lxml, compile from scratch to avoid broken official wheel." }
   - { date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel." }
   - { date: "22.10.21:", desc: "Added openblas package to prevent numpy error." }
