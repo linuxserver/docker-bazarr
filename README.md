@@ -81,9 +81,9 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - </path/to/bazarr/config>:/config
-      - </path/to/movies>:/movies
-      - </path/to/tv:/tv
+      - /path/to/bazarr/config:/config
+      - /path/to/movies:/movies
+      - /path/to/tv:/tv
     ports:
       - 6767:6767
     restart: unless-stopped
@@ -98,9 +98,9 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Europe/London \
   -p 6767:6767 \
-  -v </path/to/bazarr/config>:/config \
-  -v </path/to/movies>:/movies \
-  -v </path/to/tv:/tv \
+  -v /path/to/bazarr/config:/config \
+  -v /path/to/movies:/movies \
+  -v /path/to/tv:/tv \
   --restart unless-stopped \
   lscr.io/linuxserver/bazarr:development
 ```
@@ -108,7 +108,6 @@ docker run -d \
 You can choose between ,using tags, various branch versions of bazarr, no tag is required to remain on the main branch.
 Add one of the tags,  if required,  to the linuxserver/bazarr line of the run/create command in the following format, linuxserver/bazarr:development
 The development tag will be the latest commit in the development branch of bazarr.
-HOWEVER , USE THE DEVELOPMENT BRANCH AT YOUR OWN PERIL !!!!!!!!!
 
 ## Parameters
 
@@ -233,6 +232,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.10.22:** - Rebase development branch to Alpine 3.16, migrate to s6v3.
 * **15.11.21:** - Temp fix for lxml on amd64, compile it instead of using official wheel that seems to be broken.
 * **25.10.21:** - Rebase to alpine 3.14. Fix numpy wheel.
 * **22.10.21:** - Added openblas package to prevent numpy error.
