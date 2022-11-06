@@ -11,7 +11,7 @@ ca-certificates-20220614-r0
 ca-certificates-bundle-20220614-r0
 cjson-1.7.15-r3
 coreutils-9.1-r0
-curl-7.83.1-r3
+curl-7.83.1-r4
 dbus-libs-1.14.4-r0
 expat-2.5.0-r0
 ffmpeg-5.0.1-r1
@@ -36,7 +36,7 @@ libblkid-2.38-r1
 libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
 libcrypto1.1-1.1.1q-r0
-libcurl-7.83.1-r3
+libcurl-7.83.1-r4
 libdav1d-1.0.0-r0
 libdrm-2.4.110-r0
 libffi-3.4.2-r1
@@ -78,7 +78,7 @@ libxslt-1.1.35-r0
 linux-pam-1.5.2-r0
 mbedtls-2.28.1-r0
 mpdecimal-2.5.1-r1
-musl-1.2.3-r0
+musl-1.2.3-r1
 musl-utils-1.2.3-r0
 ncurses-libs-6.3_p20220521-r0
 ncurses-terminfo-base-6.3_p20220521-r0
