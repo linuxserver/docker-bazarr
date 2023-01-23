@@ -232,6 +232,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.01.23:** - Rebase development branch to Alpine 3.17.
 * **11.10.22:** - Rebase development branch to Alpine 3.16, migrate to s6v3.
 * **15.11.21:** - Temp fix for lxml on amd64, compile it instead of using official wheel that seems to be broken.
 * **25.10.21:** - Rebase to alpine 3.14. Fix numpy wheel.

@@ -45,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.01.23:", desc: "Rebase development branch to Alpine 3.17." }
   - { date: "11.10.22:", desc: "Rebase development branch to Alpine 3.16, migrate to s6v3." }
   - { date: "15.11.21:", desc: "Temp fix for lxml on amd64, compile it instead of using official wheel that seems to be broken." }
   - { date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel." }
