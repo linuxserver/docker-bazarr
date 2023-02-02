@@ -237,7 +237,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **02.02.23:** - Install openssl1.1-compat.
 * **23.01.23:** - Rebase master branch to Alpine 3.17.
 * **11.10.22:** - Rebase master branch to Alpine 3.16, migrate to s6v3.
 * **15.15.21:** - Temp fix for lxml, compile from scratch to avoid broken official wheel.
