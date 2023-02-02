@@ -26,6 +26,7 @@ RUN \
     ffmpeg \
     libxml2 \
     libxslt \
+    openssl1.1-compat \
     python3 && \
   echo "**** install unrar from source ****" && \
   mkdir /tmp/unrar && \
