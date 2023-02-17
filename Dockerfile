@@ -48,13 +48,16 @@ RUN \
     | jq -r '.[0] | .tag_name'); \
   fi && \
   curl -o \
-    /tmp/bazarr.tar.gz -L \
-    "https://github.com/morpheus65535/bazarr/archive/refs/tags/${BAZARR_VERSION}.tar.gz" && \
-  tar xzf \
-    /tmp/bazarr.tar.gz -C \
-    /app/bazarr/bin --strip-components=1 && \
+    /tmp/bazarr.zip -L \
+    "https://github.com/morpheus65535/bazarr/releases/download/${BAZARR_VERSION}/bazarr.zip" && \
+  unzip \
+    /tmp/bazarr.zip -d \
+    /app/bazarr/bin && \
   rm -Rf /app/bazarr/bin/bin && \
   echo "UpdateMethod=docker\nBranch=development\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io" > /app/bazarr/package_info && \
+  curl -o \
+    /app/bazarr/bin/postgres-requirements.txt -L \
+    "https://raw.githubusercontent.com/morpheus65535/bazarr/${BAZARR_VERSION}/postgres-requirements.txt" && \
   echo "**** Install requirements ****" && \
   python3 -m ensurepip && \
   pip3 install -U --no-cache-dir \
@@ -69,9 +72,7 @@ RUN \
   rm -rf \
     $HOME/.cache \
     $HOME/.cargo \
-    /tmp/* \
-    /app/bazarr/bin/screenshot \
-    /app/bazarr/bin/tests
+    /tmp/*
 
 # add local files
 COPY root/ /
