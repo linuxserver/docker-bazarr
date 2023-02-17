@@ -18,6 +18,7 @@ RUN \
     build-base \
     cargo \
     libffi-dev \
+    libpq-dev \
     libxml2-dev \
     libxslt-dev \
     python3-dev && \
@@ -26,6 +27,7 @@ RUN \
     ffmpeg \
     libxml2 \
     libxslt \
+    mediainfo \
     python3 && \
   echo "**** install unrar from source ****" && \
   mkdir /tmp/unrar && \
@@ -39,18 +41,18 @@ RUN \
   make && \
   install -v -m755 unrar /usr/local/bin && \
   echo "**** install bazarr ****" && \
+  mkdir -p \
+    /app/bazarr/bin && \
   if [ -z ${BAZARR_VERSION+x} ]; then \
     BAZARR_VERSION=$(curl -sX GET https://api.github.com/repos/morpheus65535/bazarr/releases \
     | jq -r '.[0] | .tag_name'); \
   fi && \
   curl -o \
-    /tmp/bazarr.zip -L \
-    "https://github.com/morpheus65535/bazarr/releases/download/${BAZARR_VERSION}/bazarr.zip" && \
-  mkdir -p \
-    /app/bazarr/bin && \
-  unzip \
-    /tmp/bazarr.zip -d \
-    /app/bazarr/bin && \
+    /tmp/bazarr.tar.gz -L \
+    "https://github.com/morpheus65535/bazarr/archive/refs/tags/${BAZARR_VERSION}.tar.gz" && \
+  tar xzf \
+    /tmp/bazarr.tar.gz -C \
+    /app/bazarr/bin --strip-components=1 && \
   rm -Rf /app/bazarr/bin/bin && \
   echo "UpdateMethod=docker\nBranch=development\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io" > /app/bazarr/package_info && \
   echo "**** Install requirements ****" && \
@@ -60,13 +62,17 @@ RUN \
     wheel && \
   pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/  -r \
     /app/bazarr/bin/requirements.txt && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/  -r \
+    /app/bazarr/bin/postgres-requirements.txt && \
   echo "**** clean up ****" && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
     $HOME/.cache \
     $HOME/.cargo \
-    /tmp/*
+    /tmp/* \
+    /app/bazarr/bin/screenshot \
+    /app/bazarr/bin/tests
 
 # add local files
 COPY root/ /
