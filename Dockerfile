@@ -60,10 +60,9 @@ RUN \
   pip3 install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/  -r \
-    /app/bazarr/bin/requirements.txt && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/  -r \
-    /app/bazarr/bin/postgres-requirements.txt && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
+    -r /app/bazarr/bin/requirements.txt \
+    -r /app/bazarr/bin/postgres-requirements.txt && \
   echo "**** clean up ****" && \
   apk del --purge \
     build-dependencies && \
