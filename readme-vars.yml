@@ -45,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "26.02.23:", desc: "Add dependencies for postgres support. Add mediainfo." }
   - { date: "23.01.23:", desc: "Rebase master branch to Alpine 3.17." }
   - { date: "11.10.22:", desc: "Rebase master branch to Alpine 3.16, migrate to s6v3." }
   - { date: "15.15.21:", desc: "Temp fix for lxml, compile from scratch to avoid broken official wheel." }
