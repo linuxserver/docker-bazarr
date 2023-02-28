@@ -31,7 +31,7 @@ hwdata-pci-0.364-r0
 jq-1.6-r2
 lame-3.100-r2
 libacl-2.3.1-r1
-libass-0.16.0-r0
+libass-0.16.0-r1
 libasyncns-0.8-r1
 libattr-2.5.1-r2
 libblkid-2.38.1-r1
