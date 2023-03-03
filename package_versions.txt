@@ -54,6 +54,7 @@ libintl                 0.21.1-r1              apk
 libjpeg-turbo           2.1.4-r0               apk     
 libltdl                 2.4.7-r1               apk     
 libmd                   1.0.4-r0               apk     
+libmediainfo            22.09-r0               apk     
 libmount                2.38.1-r1              apk     
 libogg                  1.3.5-r2               apk     
 libpciaccess            0.17-r0                apk     
@@ -83,10 +84,12 @@ libxext                 1.3.5-r0               apk
 libxfixes               6.0.0-r0               apk     
 libxml2                 2.10.3-r1              apk     
 libxslt                 1.1.37-r0              apk     
+libzen                  0.4.39-r0              apk     
 libzmq                  4.3.4-r1               apk     
 linux-pam               1.5.2-r1               apk     
 lxml                    4.9.2                  python  
 mbedtls                 2.28.2-r0              apk     
+mediainfo               22.09-r0               apk     
 mpdecimal               2.5.1-r1               apk     
 musl                    1.2.3-r4               apk     
 musl-utils              1.2.3-r4               apk     
@@ -104,6 +107,7 @@ p11-kit                 0.24.1-r1              apk
 pcre2                   10.42-r0               apk     
 pip                     23.0.1                 python  
 procps                  3.3.17-r2              apk     
+psycopg2-binary         2.9.5                  python  
 python                  3.10.10                binary  
 python3                 3.10.10-r0             apk     
 readline                8.2.0-r0               apk     
@@ -118,6 +122,7 @@ sqlite-libs             3.40.1-r0              apk
 ssl_client              1.35.0-r29             apk     
 svt-av1-libs            1.3.0-r0               apk     
 tdb-libs                1.4.7-r0               apk     
+tinyxml2                9.0.0-r0               apk     
 tzdata                  2022f-r1               apk     
 utmps-libs              0.1.2.0-r1             apk     
 v4l-utils-libs          1.22.1-r2              apk     
