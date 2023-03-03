@@ -237,6 +237,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.02.23:** - Add dependencies for postgres support. Add mediainfo.
 * **23.01.23:** - Rebase master branch to Alpine 3.17.
 * **11.10.22:** - Rebase master branch to Alpine 3.16, migrate to s6v3.
 * **15.15.21:** - Temp fix for lxml, compile from scratch to avoid broken official wheel.
