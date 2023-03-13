@@ -83,7 +83,7 @@ libxdmcp                1.1.4-r0               apk
 libxext                 1.3.5-r0               apk     
 libxfixes               6.0.0-r0               apk     
 libxml2                 2.10.3-r1              apk     
-libxslt                 1.1.37-r0              apk     
+libxslt                 1.1.37-r1              apk     
 libzen                  0.4.39-r0              apk     
 libzmq                  4.3.4-r1               apk     
 linux-pam               1.5.2-r1               apk     
