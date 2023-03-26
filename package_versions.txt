@@ -15,10 +15,10 @@ ca-certificates         20220614-r4            apk
 ca-certificates-bundle  20220614-r4            apk     
 cjson                   1.7.15-r3              apk     
 coreutils               9.1-r0                 apk     
-curl                    7.88.1-r0              apk     
+curl                    7.88.1-r1              apk     
 dbus-libs               1.14.4-r0              apk     
-ffmpeg                  5.1.2-r1               apk     
-ffmpeg-libs             5.1.2-r1               apk     
+ffmpeg                  5.1.2-r2               apk     
+ffmpeg-libs             5.1.2-r2               apk     
 flac-libs               1.4.2-r0               apk     
 fontconfig              2.14.1-r0              apk     
 freetype                2.12.1-r0              apk     
@@ -40,8 +40,8 @@ libblkid                2.38.1-r1              apk
 libbsd                  0.11.7-r0              apk     
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
-libcrypto3              3.0.8-r0               apk     
-libcurl                 7.88.1-r0              apk     
+libcrypto3              3.0.8-r1               apk     
+libcurl                 7.88.1-r1              apk     
 libdav1d                1.0.0-r2               apk     
 libdrm                  2.4.114-r0             apk     
 libexpat                2.5.0-r0               apk     
@@ -66,7 +66,7 @@ libsndfile              1.1.0-r2               apk
 libsodium               1.0.18-r2              apk     
 libsrt                  1.5.1-r0               apk     
 libssh                  0.10.4-r0              apk     
-libssl3                 3.0.8-r0               apk     
+libssl3                 3.0.8-r1               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libtasn1                4.19.0-r0              apk     
 libtheora               1.1.1-r16              apk     
