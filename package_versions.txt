@@ -12,8 +12,8 @@ brotli-libs             1.0.9-r9               apk
 busybox                 1.35.0                 binary  
 busybox                 1.35.0-r29             apk     
 busybox-binsh           1.35.0-r29             apk     
-ca-certificates         20220614-r4            apk     
-ca-certificates-bundle  20220614-r4            apk     
+ca-certificates         20230506-r0            apk     
+ca-certificates-bundle  20230506-r0            apk     
 cjson                   1.7.15-r3              apk     
 coreutils               9.1-r0                 apk     
 curl                    8.0.1-r0               apk     
@@ -66,7 +66,7 @@ librist                 0.2.7-r0               apk
 libsndfile              1.1.0-r2               apk     
 libsodium               1.0.18-r2              apk     
 libsrt                  1.5.1-r0               apk     
-libssh                  0.10.4-r0              apk     
+libssh                  0.10.5-r0              apk     
 libssl3                 3.0.8-r4               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libtasn1                4.19.0-r0              apk     
