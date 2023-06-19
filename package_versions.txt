@@ -3,7 +3,7 @@ Pillow                  9.5.0                  python
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
-alpine-release          3.17.3-r0              apk     
+alpine-release          3.17.4-r0              apk     
 alsa-lib                1.2.8-r0               apk     
 aom-libs                3.5.0-r0               apk     
 apk-tools               2.12.10-r1             apk     
@@ -100,7 +100,7 @@ netcat-openbsd          1.130-r4               apk
 nettle                  3.8.1-r0               apk     
 nghttp2-libs            1.51.0-r0              apk     
 numactl                 2.0.16-r1              apk     
-numpy                   1.24.3                 python  
+numpy                   1.25.0                 python  
 oniguruma               6.9.8-r0               apk     
 opus                    1.3.1-r1               apk     
 orc                     0.4.33-r0              apk     
