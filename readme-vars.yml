@@ -6,65 +6,59 @@ project_url: "https://www.bazarr.media/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
-
-  # development version
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from Bazarr" }
-  - { tag: "development", desc: "Pre-releases from Bazarr" }
-
+  - {tag: "latest", desc: "Stable releases from Bazarr"}
+  - {tag: "development", desc: "Pre-releases from Bazarr"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/bazarr/config", desc: "Bazarr data" }
+  - {vol_path: "/config", vol_host_path: "/path/to/bazarr/config", desc: "Bazarr data"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver." }
+  - {external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver."}
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 # optional env variables
 opt_param_usage_include_env: false
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of your movies" }
-  - { vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of your TV Shows" }
-
+  - {vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of your movies"}
+  - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of your TV Shows"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
   - Once running the URL will be `http://<host-ip>:6767`.
   - You must complete all the setup parameters in the webui before you can save the config.
-
 # changelog
 changelogs:
-  - { date: "26.02.23:", desc: "Add dependencies for postgres support. Add mediainfo." }
-  - { date: "23.01.23:", desc: "Rebase master branch to Alpine 3.17." }
-  - { date: "11.10.22:", desc: "Rebase master branch to Alpine 3.16, migrate to s6v3." }
-  - { date: "15.15.21:", desc: "Temp fix for lxml, compile from scratch to avoid broken official wheel." }
-  - { date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel." }
-  - { date: "22.10.21:", desc: "Added openblas package to prevent numpy error." }
-  - { date: "16.05.21:", desc: "Use wheel index." }
-  - { date: "19.04.21:", desc: "Install from release zip." }
-  - { date: "07.04.21:", desc: "Move app to /app/bazarr/bin, add `package_info`." }
-  - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
-  - { date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
-  - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
-  - { date: "13.05.20:", desc: "Add donation links for Bazarr to Github sponsors button and container log." }
-  - { date: "08.04.20:", desc: "Removed /movies and /tv volumes from Dockerfiles." }
-  - { date: "28.12.19:", desc: "Upgrade to Python 3." }
-  - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
-  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
-  - { date: "13.06.19:", desc: "Add env variable for setting umask." }
-  - { date: "12.06.19:", desc: "Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe." }
-  - { date: "17.04.19:", desc: "Add default UTC timezone if user does not set it." }
-  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "22.02.19:", desc: "Rebasing to alpine 3.9." }
-  - { date: "11.09.18:", desc: "Initial release." }
+  - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
+  - {date: "26.02.23:", desc: "Add dependencies for postgres support. Add mediainfo."}
+  - {date: "23.01.23:", desc: "Rebase master branch to Alpine 3.17."}
+  - {date: "11.10.22:", desc: "Rebase master branch to Alpine 3.16, migrate to s6v3."}
+  - {date: "15.15.21:", desc: "Temp fix for lxml, compile from scratch to avoid broken official wheel."}
+  - {date: "25.10.21:", desc: "Rebase to alpine 3.14. Fix numpy wheel."}
+  - {date: "22.10.21:", desc: "Added openblas package to prevent numpy error."}
+  - {date: "16.05.21:", desc: "Use wheel index."}
+  - {date: "19.04.21:", desc: "Install from release zip."}
+  - {date: "07.04.21:", desc: "Move app to /app/bazarr/bin, add `package_info`."}
+  - {date: "23.01.21:", desc: "Rebasing to alpine 3.13."}
+  - {date: "23.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information."}
+  - {date: "01.06.20:", desc: "Rebasing to alpine 3.12."}
+  - {date: "13.05.20:", desc: "Add donation links for Bazarr to Github sponsors button and container log."}
+  - {date: "08.04.20:", desc: "Removed /movies and /tv volumes from Dockerfiles."}
+  - {date: "28.12.19:", desc: "Upgrade to Python 3."}
+  - {date: "19.12.19:", desc: "Rebasing to alpine 3.11."}
+  - {date: "28.06.19:", desc: "Rebasing to alpine 3.10."}
+  - {date: "13.06.19:", desc: "Add env variable for setting umask."}
+  - {date: "12.06.19:", desc: "Swap to install deps using maintainers requirements.txt, add ffmpeg for ffprobe."}
+  - {date: "17.04.19:", desc: "Add default UTC timezone if user does not set it."}
+  - {date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "22.02.19:", desc: "Rebasing to alpine 3.9."}
+  - {date: "11.09.18:", desc: "Initial release."}
