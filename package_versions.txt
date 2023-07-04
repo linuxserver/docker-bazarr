@@ -1,5 +1,5 @@
 NAME                    VERSION                TYPE   
-Pillow                  9.5.0                  python  
+Pillow                  10.0.0                 python  
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
