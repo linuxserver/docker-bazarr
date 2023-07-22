@@ -16,7 +16,7 @@ ca-certificates         20230506-r0            apk
 ca-certificates-bundle  20230506-r0            apk     
 cjson                   1.7.15-r3              apk     
 coreutils               9.1-r0                 apk     
-curl                    8.1.2-r0               apk     
+curl                    8.2.0-r1               apk     
 dbus-libs               1.14.8-r0              apk     
 ffmpeg                  5.1.3-r0               apk     
 ffmpeg-libs             5.1.3-r0               apk     
@@ -41,8 +41,8 @@ libblkid                2.38.1-r1              apk
 libbsd                  0.11.7-r0              apk     
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
-libcrypto3              3.0.9-r2               apk     
-libcurl                 8.1.2-r0               apk     
+libcrypto3              3.0.9-r3               apk     
+libcurl                 8.2.0-r1               apk     
 libdav1d                1.0.0-r2               apk     
 libdrm                  2.4.114-r0             apk     
 libexpat                2.5.0-r0               apk     
@@ -67,7 +67,7 @@ libsndfile              1.1.0-r2               apk
 libsodium               1.0.18-r2              apk     
 libsrt                  1.5.1-r0               apk     
 libssh                  0.10.5-r0              apk     
-libssl3                 3.0.9-r2               apk     
+libssl3                 3.0.9-r3               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libtasn1                4.19.0-r0              apk     
 libtheora               1.1.1-r16              apk     
@@ -98,7 +98,7 @@ ncurses-libs            6.3_p20221119-r1       apk
 ncurses-terminfo-base   6.3_p20221119-r1       apk     
 netcat-openbsd          1.130-r4               apk     
 nettle                  3.8.1-r0               apk     
-nghttp2-libs            1.51.0-r0              apk     
+nghttp2-libs            1.51.0-r1              apk     
 numactl                 2.0.16-r1              apk     
 numpy                   1.25.1                 python  
 oniguruma               6.9.8-r0               apk     
@@ -106,7 +106,7 @@ opus                    1.3.1-r1               apk
 orc                     0.4.33-r0              apk     
 p11-kit                 0.24.1-r1              apk     
 pcre2                   10.42-r0               apk     
-pip                     23.2                   python  
+pip                     23.2.1                 python  
 procps                  3.3.17-r2              apk     
 psycopg2-binary         2.9.6                  python  
 python                  3.10.12                binary  
@@ -130,7 +130,7 @@ v4l-utils-libs          1.22.1-r2              apk
 vidstab                 1.1.0-r2               apk     
 wayland-libs-client     1.21.0-r1              apk     
 webrtcvad-wheels        2.0.11.post1           python  
-wheel                   0.40.0                 python  
+wheel                   0.41.0                 python  
 x264-libs               0.164_git20220602-r0   apk     
 x265-libs               3.5-r3                 apk     
 xvidcore                1.3.7-r1               apk     
