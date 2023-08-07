@@ -128,7 +128,7 @@ p11-kit                     0.24.1-r2               apk
 pcre2                       10.42-r1                apk     
 pip                         23.2.1                  python  
 procps-ng                   4.0.3-r1                apk     
-psycopg2-binary             2.9.6                   python  
+psycopg2-binary             2.9.7                   python  
 pyc                         0.1-r0                  apk     
 python                      3.11.4                  binary  
 python3                     3.11.4-r0               apk     
@@ -156,7 +156,7 @@ vidstab                     1.1.1-r0                apk
 vulkan-loader               1.3.243.0-r1            apk     
 wayland-libs-client         1.22.0-r2               apk     
 webrtcvad-wheels            2.0.11.post1            python  
-wheel                       0.41.0                  python  
+wheel                       0.41.1                  python  
 x264-libs                   0.164_git20220602-r1    apk     
 x265-libs                   3.5-r4                  apk     
 xvidcore                    1.3.7-r1                apk     
