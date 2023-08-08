@@ -42,7 +42,7 @@ libblkid                    2.38.1-r1              apk
 libbsd                      0.11.7-r0              apk     
 libbz2                      1.0.8-r4               apk     
 libc-utils                  0.7.2-r3               apk     
-libcrypto3                  3.0.9-r3               apk     
+libcrypto3                  3.0.10-r0              apk     
 libcurl                     8.2.1-r0               apk     
 libdav1d                    1.0.0-r2               apk     
 libdrm                      2.4.114-r0             apk     
@@ -60,7 +60,7 @@ libmediainfo                22.09-r0               apk
 libmount                    2.38.1-r1              apk     
 libogg                      1.3.5-r2               apk     
 libpciaccess                0.17-r0                apk     
-libpng                      1.6.38-r0              apk     
+libpng                      1.6.39-r0              apk     
 libproc                     3.3.17-r2              apk     
 libpulse                    16.1-r6                apk     
 librist                     0.2.7-r0               apk     
@@ -68,7 +68,7 @@ libsndfile                  1.1.0-r2               apk
 libsodium                   1.0.18-r2              apk     
 libsrt                      1.5.1-r0               apk     
 libssh                      0.10.5-r0              apk     
-libssl3                     3.0.9-r3               apk     
+libssl3                     3.0.10-r0              apk     
 libstdc++                   12.2.1_git20220924-r4  apk     
 libtasn1                    4.19.0-r0              apk     
 libtheora                   1.1.1-r16              apk     
@@ -90,7 +90,7 @@ libzen                      0.4.39-r0              apk
 libzmq                      4.3.4-r1               apk     
 linux-pam                   1.5.2-r1               apk     
 lxml                        4.9.3                  python  
-mbedtls                     2.28.3-r0              apk     
+mbedtls                     2.28.4-r0              apk     
 mediainfo                   22.09-r0               apk     
 mpdecimal                   2.5.1-r1               apk     
 musl                        1.2.3-r5               apk     
@@ -109,7 +109,7 @@ p11-kit                     0.24.1-r1              apk
 pcre2                       10.42-r0               apk     
 pip                         23.2.1                 python  
 procps                      3.3.17-r2              apk     
-psycopg2-binary             2.9.6                  python  
+psycopg2-binary             2.9.7                  python  
 python                      3.10.12                binary  
 python3                     3.10.12-r0             apk     
 readline                    8.2.0-r0               apk     
@@ -131,7 +131,7 @@ v4l-utils-libs              1.22.1-r2              apk
 vidstab                     1.1.0-r2               apk     
 wayland-libs-client         1.21.0-r1              apk     
 webrtcvad-wheels            2.0.11.post1           python  
-wheel                       0.41.0                 python  
+wheel                       0.41.1                 python  
 x264-libs                   0.164_git20220602-r0   apk     
 x265-libs                   3.5-r3                 apk     
 xvidcore                    1.3.7-r1               apk     
