@@ -3,7 +3,7 @@
 FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
-ARG UNRAR_VERSION=6.2.8
+ARG UNRAR_VERSION=6.2.10
 ARG BUILD_DATE
 ARG VERSION
 ARG BAZARR_VERSION
