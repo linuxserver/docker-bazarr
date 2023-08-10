@@ -38,6 +38,7 @@ app_setup_block: |
   - You must complete all the setup parameters in the webui before you can save the config.
 # changelog
 changelogs:
+  - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "26.02.23:", desc: "Add dependencies for postgres support. Add mediainfo."}
   - {date: "23.01.23:", desc: "Rebase master branch to Alpine 3.17."}
