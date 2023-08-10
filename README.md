@@ -237,6 +237,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.08.23:** - Bump unrar to 6.2.10.
 * **04.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **26.02.23:** - Add dependencies for postgres support. Add mediainfo.
 * **23.01.23:** - Rebase master branch to Alpine 3.17.
