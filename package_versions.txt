@@ -135,7 +135,7 @@ python3-pycache-pyc0        3.11.5-r0               apk
 readline                    8.2.1-r1                apk     
 scanelf                     1.3.7-r1                apk     
 sdl2                        2.26.5-r0               apk     
-setuptools                  68.2.0                  python  
+setuptools                  68.2.2                  python  
 shaderc                     2023.3-r1               apk     
 shadow                      4.13-r4                 apk     
 skalibs                     2.13.1.1-r1             apk     
