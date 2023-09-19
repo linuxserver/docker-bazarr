@@ -29,7 +29,6 @@ RUN \
     libxml2 \
     libxslt \
     mediainfo \
-    openblas \
     python3 && \
   echo "**** install bazarr ****" && \
   mkdir -p \
