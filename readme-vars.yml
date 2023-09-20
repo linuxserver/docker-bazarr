@@ -38,6 +38,7 @@ app_setup_block: |
   - You must complete all the setup parameters in the webui before you can save the config.
 # changelog
 changelogs:
+  - {date: "19.09.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - {date: "11.08.23:", desc: "Rebase to Alpine 3.18."}
   - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "04.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
