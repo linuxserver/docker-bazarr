@@ -1,5 +1,5 @@
 NAME                        VERSION                 TYPE   
-Pillow                      10.0.1                  python  
+Pillow                      10.1.0                  python  
 Simple Launcher Executable  1.1.0.14                dotnet  
 alpine-baselayout           3.4.3-r1                apk     
 alpine-baselayout-data      3.4.3-r1                apk     
@@ -125,7 +125,7 @@ opus                        1.4-r0                  apk
 orc                         0.4.34-r0               apk     
 p11-kit                     0.24.1-r2               apk     
 pcre2                       10.42-r1                apk     
-pip                         23.2.1                  python  
+pip                         23.3                    python  
 procps-ng                   4.0.4-r0                apk     
 psycopg2-binary             2.9.9                   python  
 pyc                         0.1-r0                  apk     
