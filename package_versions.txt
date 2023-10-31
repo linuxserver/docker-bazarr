@@ -154,7 +154,7 @@ vidstab                     1.1.1-r0                apk
 vulkan-loader               1.3.243.0-r1            apk     
 wayland-libs-client         1.22.0-r2               apk     
 webrtcvad-wheels            2.0.11.post1            python  
-wheel                       0.41.2                  python  
+wheel                       0.41.3                  python  
 x264-libs                   0.164_git20220602-r1    apk     
 x265-libs                   3.5-r4                  apk     
 xvidcore                    1.3.7-r1                apk     
