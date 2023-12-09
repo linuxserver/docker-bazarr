@@ -16,7 +16,7 @@ ca-certificates           20230506-r0             apk
 ca-certificates-bundle    20230506-r0             apk     
 cjson                     1.7.15-r4               apk     
 coreutils                 9.3-r1                  apk     
-curl                      8.4.0-r0                apk     
+curl                      8.5.0-r0                apk     
 dbus-libs                 1.14.8-r0               apk     
 ffmpeg                    6.0.1-r0                apk     
 ffmpeg-libavcodec         6.0.1-r0                apk     
@@ -52,7 +52,7 @@ libbsd                    0.11.7-r1               apk
 libbz2                    1.0.8-r5                apk     
 libc-utils                0.7.2-r5                apk     
 libcrypto3                3.1.4-r1                apk     
-libcurl                   8.4.0-r0                apk     
+libcurl                   8.5.0-r0                apk     
 libdav1d                  1.2.1-r0                apk     
 libdrm                    2.4.115-r4              apk     
 libexpat                  2.5.0-r1                apk     
