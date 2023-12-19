@@ -106,7 +106,7 @@ libxslt                   1.1.38-r0               apk
 libzen                    0.4.41-r0               apk     
 libzmq                    4.3.4-r4                apk     
 linux-pam                 1.5.2-r10               apk     
-lxml                      4.9.3                   python  
+lxml                      4.9.4                   python  
 mbedtls                   2.28.5-r0               apk     
 mediainfo                 23.07-r0                apk     
 mpdecimal                 2.5.1-r2                apk     
@@ -125,7 +125,7 @@ opus                      1.4-r0                  apk
 orc                       0.4.34-r0               apk     
 p11-kit                   0.24.1-r2               apk     
 pcre2                     10.42-r1                apk     
-pip                       23.3.1                  python  
+pip                       23.3.2                  python  
 procps-ng                 4.0.4-r0                apk     
 psycopg2-binary           2.9.9                   python  
 pyc                       0.1-r0                  apk     
