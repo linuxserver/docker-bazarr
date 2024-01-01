@@ -147,7 +147,7 @@ ssl_client              1.36.1-r5               apk
 svt-av1-libs            1.6.0-r0                apk     
 tdb-libs                1.4.8-r1                apk     
 tinyxml2                9.0.0-r2                apk     
-tzdata                  2023c-r1                apk     
+tzdata                  2023d-r0                apk     
 utmps-libs              0.1.2.1-r1              apk     
 v4l-utils-libs          1.24.1-r0               apk     
 vidstab                 1.1.1-r0                apk     
