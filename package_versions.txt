@@ -117,7 +117,7 @@ netcat-openbsd          1.219-r1                apk
 nettle                  3.8.1-r2                apk     
 nghttp2-libs            1.57.0-r0               apk     
 numactl                 2.0.16-r4               apk     
-numpy                   1.26.2                  python  
+numpy                   1.26.3                  python  
 onevpl-libs             2023.2.1-r0             apk     
 oniguruma               6.9.8-r1                apk     
 opus                    1.4-r0                  apk     
