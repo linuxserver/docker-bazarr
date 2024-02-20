@@ -194,10 +194,10 @@ proc-macro-error-attr         1.0.4                  rust-crate
 proc-macro2                   1.0.57                 rust-crate  
 procps-ng                     4.0.4-r0               apk         
 psycopg2-binary               2.9.9                  python      
-pyc                           3.11.6-r1              apk         
-python3                       3.11.6-r1              apk         
-python3-pyc                   3.11.6-r1              apk         
-python3-pycache-pyc0          3.11.6-r1              apk         
+pyc                           3.11.8-r0              apk         
+python3                       3.11.8-r0              apk         
+python3-pyc                   3.11.8-r0              apk         
+python3-pycache-pyc0          3.11.8-r0              apk         
 quote                         1.0.27                 rust-crate  
 radium                        0.7.0                  rust-crate  
 rand                          0.8.5                  rust-crate  
