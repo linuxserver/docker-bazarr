@@ -219,7 +219,7 @@ sdl2                          2.28.5-r0              apk
 serd-libs                     0.32.0-r0              apk         
 serde                         1.0.163                rust-crate  
 serde_derive                  1.0.163                rust-crate  
-setuptools                    69.1.0                 python      
+setuptools                    69.1.1                 python      
 shaderc                       2023.7-r0              apk         
 shadow                        4.14.2-r0              apk         
 signal-hook                   0.3.15                 rust-crate  
