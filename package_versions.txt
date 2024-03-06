@@ -93,7 +93,7 @@ either                         1.8.1                  rust-crate
 enzyme                         0.4.1                  python                       
 fcache                         0.5.2                  python                       
 fern                           0.6.2                  rust-crate                   
-fese                           0.2.7                  python                       
+fese                           0.2.9                  python                       
 ffmpeg                         6.1.1-r0               apk                          
 ffmpeg-libavcodec              6.1.1-r0               apk                          
 ffmpeg-libavdevice             6.1.1-r0               apk                          
