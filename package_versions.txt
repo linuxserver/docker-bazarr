@@ -65,7 +65,7 @@ clap_complete                  4.0.7                  rust-crate
 clap_derive                    4.0.21                 rust-crate                   
 clap_lex                       0.3.0                  rust-crate                   
 click                          8.1.7                  python                       
-cloudscraper                   1.2.71                 python                       
+cloudscraper                   1.2.58                 python                       
 colorama                       0.4.6                  python                       
 commonmark                     0.9.1                  python                       
 console                        0.15.5                 rust-crate                   
