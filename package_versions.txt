@@ -251,7 +251,7 @@ orc                            0.4.34-r0              apk
 os_str_bytes                   6.5.0                  rust-crate                   
 paste                          1.0.12                 rust-crate                   
 pcre2                          10.42-r2               apk                          
-pillow                         10.2.0                 python                       
+pillow                         10.3.0                 python                       
 pip                            24.0                   python                       
 platformdirs                   4.2.0                  python                       
 ppv-lite86                     0.2.17                 rust-crate                   
