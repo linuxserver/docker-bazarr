@@ -22,7 +22,7 @@ bitvec_helpers                3.1.2                  rust-crate
 brotli-libs                   1.1.0-r1               apk                          
 busybox                       1.36.1-r15             apk                          
 busybox-binsh                 1.36.1-r15             apk                          
-c-ares                        1.24.0-r1              apk                          
+c-ares                        1.27.0-r0              apk                          
 ca-certificates               20240226-r0            apk                          
 ca-certificates-bundle        20240226-r0            apk                          
 cfg-if                        1.0.0                  rust-crate                   
@@ -155,7 +155,7 @@ linux-raw-sys                 0.3.7                  rust-crate
 log                           0.4.17                 rust-crate                   
 lxml                          4.9.4                  python                       
 maybe-rayon                   0.1.1                  rust-crate                   
-mbedtls                       2.28.7-r0              apk                          
+mbedtls                       2.28.8-r0              apk                          
 mediainfo                     23.11-r0               apk                          
 memchr                        2.5.0                  rust-crate                   
 memoffset                     0.8.0                  rust-crate                   
@@ -186,7 +186,7 @@ orc                           0.4.34-r0              apk
 os_str_bytes                  6.5.0                  rust-crate                   
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
-pillow                        10.2.0                 python                       
+pillow                        10.3.0                 python                       
 pip                           24.0                   python                       
 ppv-lite86                    0.2.17                 rust-crate                   
 proc-macro-error              1.0.4                  rust-crate                   
