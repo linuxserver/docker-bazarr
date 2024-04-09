@@ -27,7 +27,7 @@ aniso8601                      9.0.1                  python
 anyhow                         1.0.71                 rust-crate                   
 anyhow                         1.0.75                 rust-crate                   
 aom-libs                       3.7.1-r0               apk                          
-apk-tools                      2.14.0-r5              apk                          
+apk-tools                      2.14.3-r1              apk                          
 appdirs                        1.4.4                  python                       
 apprise                        1.7.4                  python                       
 arg_enum_proc_macro            0.3.2                  rust-crate                   
