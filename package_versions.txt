@@ -260,7 +260,7 @@ proc-macro-error-attr          1.0.4                  rust-crate
 proc-macro2                    1.0.57                 rust-crate                   
 procps-ng                      4.0.4-r0               apk                          
 psycopg2-binary                2.9.9                  python                       
-pyc                            3.11.8-r0              apk                          
+pyc                            3.11.9-r0              apk                          
 pycountry                      23.12.11               python                       
 pydantic                       1.10.14                python                       
 pyjsparser                     2.7.1                  python                       
@@ -273,9 +273,9 @@ python-anticaptcha             1.0.0                  python
 python-dateutil                2.8.2                  python                       
 python-engineio                4.9.0                  python                       
 python-socketio                5.11.1                 python                       
-python3                        3.11.8-r0              apk                          
-python3-pyc                    3.11.8-r0              apk                          
-python3-pycache-pyc0           3.11.8-r0              apk                          
+python3                        3.11.9-r0              apk                          
+python3-pyc                    3.11.9-r0              apk                          
+python3-pycache-pyc0           3.11.9-r0              apk                          
 pytz                           2024.1                 python                       
 pytz_deprecation_shim          0.1.0.post0            python                       
 quote                          1.0.27                 rust-crate                   
@@ -308,7 +308,7 @@ semver                         3.0.2                  python
 serd-libs                      0.32.0-r0              apk                          
 serde                          1.0.163                rust-crate                   
 serde_derive                   1.0.163                rust-crate                   
-setuptools                     69.2.0                 python                       
+setuptools                     69.5.1                 python                       
 shaderc                        2023.7-r0              apk                          
 shadow                         4.14.2-r0              apk                          
 signal-hook                    0.3.15                 rust-crate                   
