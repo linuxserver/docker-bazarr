@@ -55,6 +55,7 @@ busybox-binsh                  1.36.1-r15             apk
 c-ares                         1.27.0-r0              apk                          
 ca-certificates                20240226-r0            apk                          
 ca-certificates-bundle         20240226-r0            apk                          
+catatonit                      0.2.0-r0               apk                          
 certifi                        2024.2.2               python                       
 cfg-if                         1.0.0                  rust-crate                   
 chardet                        5.2.0                  python                       
@@ -116,7 +117,7 @@ future                         1.0.0                  python
 ga4mp                          2.0.4                  python                       
 gdbm                           1.23-r1                apk                          
 getrandom                      0.2.9                  rust-crate                   
-glib                           2.78.4-r0              apk                          
+glib                           2.78.5-r0              apk                          
 glslang-libs                   1.3.261.1-r0           apk                          
 graphite2                      1.3.14-r6              apk                          
 guess-language-spirit          0.5.3                  python                       
