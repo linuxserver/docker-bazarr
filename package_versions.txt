@@ -270,7 +270,7 @@ pymediainfo                    6.1.0                  python
 pyparsing                      3.1.1                  python                       
 pyrsistent                     0.20.0                 python                       
 pysrt                          1.1.2                  python                       
-pysubs2                        1.6.1                  python                       
+pysubs2                        1.7.2                  python                       
 python-anticaptcha             1.0.0                  python                       
 python-dateutil                2.8.2                  python                       
 python-engineio                4.9.0                  python                       
@@ -336,6 +336,7 @@ tap                            1.0.1                  rust-crate
 tdb-libs                       1.4.9-r0               apk                          
 termcolor                      1.2.0                  rust-crate                   
 terminal_size                  0.2.6                  rust-crate                   
+textdistance                   4.6.2                  python                       
 thiserror                      1.0.40                 rust-crate                   
 thiserror-impl                 1.0.40                 rust-crate                   
 tinyxml2                       9.0.0-r2               apk                          
