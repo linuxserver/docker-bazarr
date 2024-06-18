@@ -50,8 +50,8 @@ bitvec                         1.0.1                  rust-crate
 bitvec_helpers                 3.1.2                  rust-crate                   
 blinker                        1.7.0                  python                       
 brotli-libs                    1.1.0-r1               apk                          
-busybox                        1.36.1-r18             apk                          
-busybox-binsh                  1.36.1-r18             apk                          
+busybox                        1.36.1-r19             apk                          
+busybox-binsh                  1.36.1-r19             apk                          
 c-ares                         1.27.0-r0              apk                          
 ca-certificates                20240226-r0            apk                          
 ca-certificates-bundle         20240226-r0            apk                          
@@ -243,7 +243,7 @@ num-rational                   0.4.1                  rust-crate
 num-traits                     0.2.15                 rust-crate                   
 num_cpus                       1.15.0                 rust-crate                   
 numactl                        2.0.16-r4              apk                          
-numpy                          1.26.4                 python                       
+numpy                          2.0.0                  python                       
 oauthlib                       3.2.2                  python                       
 once_cell                      1.17.1                 rust-crate                   
 onevpl-libs                    2023.3.1-r2            apk                          
@@ -328,7 +328,7 @@ spirv-tools                    1.3.261.1-r0           apk
 sqlite-libs                    3.44.2-r0              apk                          
 sratom                         0.6.16-r0              apk                          
 srt                            3.5.3                  python                       
-ssl_client                     1.36.1-r18             apk                          
+ssl_client                     1.36.1-r19             apk                          
 stevedore                      5.2.0                  python                       
 syn                            1.0.109                rust-crate                   
 syn                            2.0.16                 rust-crate                   
