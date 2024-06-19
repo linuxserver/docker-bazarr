@@ -10,13 +10,7 @@ project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-# Optional Block
-optional_block_1: true
-optional_block_1_items:
-  - |
-    You can choose between ,using tags, various branch versions of bazarr, no tag is required to remain on the main branch.
-    Add one of the tags,  if required,  to the linuxserver/bazarr line of the run/create command in the following format, linuxserver/bazarr:development
-    The development tag will be the latest commit in the development branch of bazarr.
+
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
@@ -25,11 +19,6 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver."}
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
-# optional env variables
-opt_param_usage_include_env: false
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -37,7 +26,8 @@ app_setup_block: |
   - You must complete all the setup parameters in the webui before you can save the config.
 # changelog
 changelogs:
-  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
+  - {date: "06.06.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - {date: "19.09.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - {date: "11.07.23:", desc: "Rebase to Alpine 3.18"}
