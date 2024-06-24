@@ -287,6 +287,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **19.09.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **11.08.23:** - Rebase to Alpine 3.18.
