@@ -106,7 +106,7 @@ itsdangerous                   2.1.2                  python
 jq                             1.7.1-r0               apk                      
 json-tricks                    3.17.3                 python                   
 jsonschema                     4.17.3                 python                   
-knowit                         0.5.2                  python                   
+knowit                         0.5.3                  python                   
 lame-libs                      3.100-r5               apk                      
 lcms2                          2.16-r0                apk                      
 libSvtAv1Enc                   2.0.0-r1               apk                      
