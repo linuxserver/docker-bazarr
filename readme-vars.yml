@@ -26,6 +26,9 @@ opt_param_usage_include_vols: true
 opt_param_volumes:
   - {vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of your movies"}
   - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of your TV Shows"}
+
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
