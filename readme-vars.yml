@@ -19,6 +19,9 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "6767", internal_port: "6767", port_desc: "Allows HTTP access to the internal webserver."}
+
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
