@@ -202,7 +202,7 @@ opus                           1.5.2-r0               apk
 orc                            0.4.37-r0              apk                      
 pcre2                          10.43-r0               apk                      
 pillow                         10.4.0                 python                   
-pip                            24.1.1                 python                   
+pip                            24.1.2                 python                   
 platformdirs                   4.2.0                  python                   
 procps-ng                      4.0.4-r0               apk                      
 psycopg2-binary                2.9.9                  python                   
