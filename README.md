@@ -71,6 +71,11 @@ This image provides various versions that are available via tags. Please read th
 - Once running the URL will be `http://<host-ip>:6767`.
 - You must complete all the setup parameters in the webui before you can save the config.
 
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -125,6 +130,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /config` | Persistent config files |
 | `-v /movies` | Location of your movies |
 | `-v /tv` | Location of your TV Shows |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
