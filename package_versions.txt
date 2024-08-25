@@ -212,7 +212,7 @@ platformdirs                   4.2.0                  python
 platformdirs                   4.2.2                  python                   
 procps-ng                      4.0.4-r0               apk                      
 psycopg2-binary                2.9.9                  python                   
-pyc                            3.12.3-r1              apk                      
+pyc                            3.12.3-r2              apk                      
 pycountry                      23.12.11               python                   
 pydantic                       1.10.14                python                   
 pygments                       2.17.2                 python                   
@@ -227,9 +227,9 @@ python-anticaptcha             1.0.0                  python
 python-dateutil                2.8.2                  python                   
 python-engineio                4.9.0                  python                   
 python-socketio                5.11.1                 python                   
-python3                        3.12.3-r1              apk                      
-python3-pyc                    3.12.3-r1              apk                      
-python3-pycache-pyc0           3.12.3-r1              apk                      
+python3                        3.12.3-r2              apk                      
+python3-pyc                    3.12.3-r2              apk                      
+python3-pycache-pyc0           3.12.3-r2              apk                      
 pytz                           2024.1                 python                   
 pytz-deprecation-shim          0.1.0.post0            python                   
 pyyaml                         6.0.1                  python                   
