@@ -195,7 +195,7 @@ ncurses-terminfo-base          6.4_p20240420-r0       apk
 netcat-openbsd                 1.226-r0               apk                      
 nghttp2-libs                   1.62.1-r0              apk                      
 numactl                        2.0.18-r0              apk                      
-numpy                          2.1.0                  python                   
+numpy                          2.1.1                  python                   
 oauthlib                       3.2.2                  python                   
 onevpl-libs                    2023.3.1-r2            apk                      
 oniguruma                      6.9.9-r0               apk                      
@@ -247,7 +247,7 @@ scanelf                        1.3.7-r2               apk
 sdl2                           2.28.5-r1              apk                      
 semver                         3.0.2                  python                   
 serd-libs                      0.32.2-r0              apk                      
-setuptools                     74.1.0                 python                   
+setuptools                     74.1.1                 python                   
 shaderc                        2024.0-r0              apk                      
 shadow                         4.15.1-r0              apk                      
 signalrcore                    0.9.5                  python                   
