@@ -4,7 +4,7 @@ alembic                        1.13.1                 python
 alpine-baselayout              3.6.5-r0               apk                      
 alpine-baselayout-data         3.6.5-r0               apk                      
 alpine-keys                    2.4-r1                 apk                      
-alpine-release                 3.20.2-r0              apk                      
+alpine-release                 3.20.3-r0              apk                      
 alsa-lib                       1.2.11-r0              apk                      
 aniso8601                      9.0.1                  python                   
 aom-libs                       3.9.1-r0               apk                      
@@ -79,7 +79,7 @@ future                         1.0.0                  python
 ga4mp                          2.0.4                  python                   
 gdbm                           1.23-r1                apk                      
 giflib                         5.2.2-r0               apk                      
-glib                           2.80.2-r0              apk                      
+glib                           2.80.4-r0              apk                      
 glslang-libs                   1.3.261.1-r0           apk                      
 graphite2                      1.3.14-r6              apk                      
 guess-language-spirit          0.5.3                  python                   
@@ -276,7 +276,7 @@ typeguard                      4.3.0                  python
 typing-extensions              4.10.0                 python                   
 typing-extensions              4.12.2                 python                   
 tzdata                         2024.1                 python                   
-tzdata                         2024a-r1               apk                      
+tzdata                         2024b-r0               apk                      
 tzlocal                        5.2                    python                   
 unidecode                      1.3.8                  python                   
 urllib3                        2.2.1                  python                   
@@ -288,7 +288,7 @@ waitress                       3.0.0                  python
 wayland-libs-client            1.22.0-r4              apk                      
 wcwidth                        0.2.13                 python                   
 webencodings                   0.5.1                  python                   
-webrtcvad-wheels               2.0.13                 python                   
+webrtcvad-wheels               2.0.14                 python                   
 websocket-client               1.7.0                  python                   
 werkzeug                       3.0.1                  python                   
 wheel                          0.43.0                 python                   
