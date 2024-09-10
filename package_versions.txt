@@ -89,7 +89,7 @@ harfbuzz                       8.5.0-r0               apk
 html5lib                       1.1                    python                   
 hwdata-pci                     0.382-r0               apk                      
 idna                           3.6                    python                   
-imath                          3.1.11-r2              apk                      
+imath                          3.1.12-r0              apk                      
 importlib-metadata             7.0.1                  python                   
 importlib-metadata             8.0.0                  python                   
 importlib-resources            6.1.2                  python                   
