@@ -79,7 +79,7 @@ future                         1.0.0                  python
 ga4mp                          2.0.4                  python                   
 gdbm                           1.23-r1                apk                      
 giflib                         5.2.2-r0               apk                      
-glib                           2.80.4-r0              apk                      
+glib                           2.80.5-r0              apk                      
 glslang-libs                   1.3.261.1-r0           apk                      
 graphite2                      1.3.14-r6              apk                      
 guess-language-spirit          0.5.3                  python                   
