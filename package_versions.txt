@@ -12,7 +12,6 @@ apk-tools                      2.14.4-r0              apk
 appdirs                        1.4.4                  python                   
 apprise                        1.7.6                  python                   
 apscheduler                    3.10.4                 python                   
-argparse                       1.4.0                  python                   
 attrs                          23.2.0                 python                   
 auditok                        0.1.5                  python                   
 autocommand                    2.2.2                  python                   
@@ -43,7 +42,7 @@ coreutils                      9.5-r1                 apk
 coreutils-env                  9.5-r1                 apk                      
 coreutils-fmt                  9.5-r1                 apk                      
 coreutils-sha512sum            9.5-r1                 apk                      
-curl                           8.10.0-r0              apk                      
+curl                           8.9.1-r2               apk                      
 dbus-libs                      1.14.10-r1             apk                      
 decorator                      5.1.1                  python                   
 deep-translator                1.11.4                 python                   
@@ -119,7 +118,7 @@ libbluray                      1.3.4-r1               apk
 libbsd                         0.12.2-r0              apk                      
 libbz2                         1.0.8-r6               apk                      
 libcrypto3                     3.3.2-r0               apk                      
-libcurl                        8.10.0-r0              apk                      
+libcurl                        8.9.1-r2               apk                      
 libdav1d                       1.4.2-r0               apk                      
 libdovi                        3.3.0-r0               apk                      
 libdrm                         2.4.120-r0             apk                      
