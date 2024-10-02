@@ -12,7 +12,6 @@ apk-tools                      2.14.4-r0              apk
 appdirs                        1.4.4                  python                   
 apprise                        1.7.6                  python                   
 apscheduler                    3.10.4                 python                   
-argparse                       1.4.0                  python                   
 attrs                          23.2.0                 python                   
 auditok                        0.1.5                  python                   
 autocommand                    2.2.2                  python                   
