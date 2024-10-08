@@ -10,6 +10,7 @@ ARG VERSION
 ARG BAZARR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
+LABEL org.opencontainers.image.source="https://github.com/morpheus65535/bazarr"
 # hard set UTC in case the user does not define it
 ENV TZ="Etc/UTC"
 
