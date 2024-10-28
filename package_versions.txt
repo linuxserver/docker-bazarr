@@ -207,7 +207,7 @@ orc                            0.4.40-r0              apk
 packaging                      24.1                   python                   
 pcre2                          10.43-r0               apk                      
 pillow                         11.0.0                 python                   
-pip                            24.2                   python                   
+pip                            24.3.1                 python                   
 platformdirs                   4.2.0                  python                   
 platformdirs                   4.2.2                  python                   
 procps-ng                      4.0.4-r0               apk                      
