@@ -186,7 +186,7 @@ mbedtls                        3.6.2-r0               apk
 mediainfo                      24.04-r0               apk                      
 more-itertools                 10.3.0                 python                   
 mpdecimal                      4.0.0-r0               apk                      
-mpg123-libs                    1.32.6-r0              apk                      
+mpg123-libs                    1.32.8-r0              apk                      
 msgpack                        1.0.7                  python                   
 musl                           1.2.5-r0               apk                      
 musl-utils                     1.2.5-r0               apk                      
