@@ -27,6 +27,7 @@ opt_param_volumes:
   - {vol_path: "/movies", vol_host_path: "/path/to/movies", desc: "Location of your movies"}
   - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of your TV Shows"}
 readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -77,6 +78,7 @@ init_diagram: |
   "bazarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "24.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "24.06.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - {date: "19.09.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
