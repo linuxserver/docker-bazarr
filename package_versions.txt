@@ -151,7 +151,7 @@ libpsl                         0.21.5-r3         apk
 libpulse                       17.0-r4           apk                      
 librist                        0.2.10-r1         apk                      
 libsharpyuv                    1.4.0-r0          apk                      
-libsndfile                     1.2.2-r0          apk                      
+libsndfile                     1.2.2-r2          apk                      
 libsodium                      1.0.20-r0         apk                      
 libsrt                         1.5.3-r0          apk                      
 libssh                         0.11.1-r0         apk                      
