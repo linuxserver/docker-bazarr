@@ -2,8 +2,8 @@ NAME                           VERSION           TYPE
 Simple Launcher                1.1.0.14          dotnet  (+5 duplicates)  
 acl-libs                       2.3.2-r1          apk                      
 alembic                        1.13.1            python                   
-alpine-baselayout              3.6.8-r0          apk                      
-alpine-baselayout-data         3.6.8-r0          apk                      
+alpine-baselayout              3.6.8-r1          apk                      
+alpine-baselayout-data         3.6.8-r1          apk                      
 alpine-keys                    2.5-r0            apk                      
 alpine-release                 3.21.0-r0         apk                      
 alsa-lib                       1.2.12-r0         apk                      
@@ -28,8 +28,8 @@ brotli-libs                    1.1.0-r2          apk
 busybox                        1.37.0-r9         apk                      
 busybox-binsh                  1.37.0-r9         apk                      
 c-ares                         1.34.3-r0         apk                      
-ca-certificates                20241010-r0       apk                      
-ca-certificates-bundle         20241010-r0       apk                      
+ca-certificates                20241121-r0       apk                      
+ca-certificates-bundle         20241121-r0       apk                      
 catatonit                      0.2.0-r0          apk                      
 certifi                        2024.2.2          python                   
 chardet                        5.2.0             python                   
@@ -207,7 +207,7 @@ opus                           1.5.2-r1          apk
 orc                            0.4.40-r1         apk                      
 packaging                      24.2              python                   
 pcre2                          10.43-r0          apk                      
-pillow                         11.0.0            python                   
+pillow                         11.1.0            python                   
 pip                            24.3.1            python                   
 platformdirs                   4.2.0             python                   
 platformdirs                   4.2.2             python                   
@@ -248,7 +248,7 @@ scanelf                        1.3.8-r1          apk
 sdl2                           2.30.9-r0         apk                      
 semver                         3.0.2             python                   
 serd-libs                      0.32.2-r0         apk                      
-setuptools                     75.6.0            python                   
+setuptools                     75.7.0            python                   
 shaderc                        2024.0-r2         apk                      
 shadow                         4.16.0-r1         apk                      
 signalrcore                    0.9.5             python                   
