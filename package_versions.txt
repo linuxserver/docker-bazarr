@@ -25,8 +25,8 @@ beautifulsoup4                 4.12.3            python
 bidict                         0.23.1            python                   
 blinker                        1.7.0             python                   
 brotli-libs                    1.1.0-r2          apk                      
-busybox                        1.37.0-r9         apk                      
-busybox-binsh                  1.37.0-r9         apk                      
+busybox                        1.37.0-r12        apk                      
+busybox-binsh                  1.37.0-r12        apk                      
 c-ares                         1.34.3-r0         apk                      
 ca-certificates                20241121-r1       apk                      
 ca-certificates-bundle         20241121-r1       apk                      
@@ -195,7 +195,7 @@ ncurses-terminfo-base          6.5_p20241006-r3  apk
 netcat-openbsd                 1.226.1.1-r0      apk                      
 nghttp2-libs                   1.64.0-r0         apk                      
 numactl                        2.0.18-r0         apk                      
-numpy                          2.2.1             python                   
+numpy                          2.2.2             python                   
 oauthlib                       3.2.2             python                   
 onevpl-libs                    2023.3.1-r2       apk                      
 oniguruma                      6.9.9-r0          apk                      
@@ -264,7 +264,7 @@ sqlalchemy                     2.0.27            python
 sqlite-libs                    3.47.1-r0         apk                      
 sratom                         0.6.16-r0         apk                      
 srt                            3.5.3             python                   
-ssl_client                     1.37.0-r9         apk                      
+ssl_client                     1.37.0-r12        apk                      
 stevedore                      5.2.0             python                   
 tdb-libs                       1.4.12-r0         apk                      
 textdistance                   4.6.2             python                   
