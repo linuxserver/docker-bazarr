@@ -211,6 +211,7 @@ pillow                         11.1.0            python
 pip                            24.3.1            python                   
 platformdirs                   4.2.2             python                   
 platformdirs                   4.3.6             python                   
+plexapi                        4.16.1            python                   
 procps-ng                      4.0.4-r2          apk                      
 psycopg2-binary                2.9.10            python                   
 pyc                            3.12.8-r1         apk                      
