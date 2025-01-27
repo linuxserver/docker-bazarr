@@ -208,7 +208,7 @@ orc                            0.4.40-r1         apk
 packaging                      24.2              python                   
 pcre2                          10.43-r0          apk                      
 pillow                         11.1.0            python                   
-pip                            24.3.1            python                   
+pip                            25.0              python                   
 platformdirs                   4.2.2             python                   
 platformdirs                   4.3.6             python                   
 plexapi                        4.16.1            python                   
