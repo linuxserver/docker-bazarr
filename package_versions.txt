@@ -43,7 +43,7 @@ coreutils                      9.5-r2            apk
 coreutils-env                  9.5-r2            apk                      
 coreutils-fmt                  9.5-r2            apk                      
 coreutils-sha512sum            9.5-r2            apk                      
-curl                           8.11.1-r0         apk                      
+curl                           8.12.0-r0         apk                      
 dbus-libs                      1.14.10-r4        apk                      
 decorator                      5.1.1             python                   
 deep-translator                1.11.4            python                   
@@ -116,8 +116,8 @@ libblkid                       2.40.4-r0         apk
 libbluray                      1.3.4-r1          apk                      
 libbsd                         0.12.2-r0         apk                      
 libbz2                         1.0.8-r6          apk                      
-libcrypto3                     3.3.2-r5          apk                      
-libcurl                        8.11.1-r0         apk                      
+libcrypto3                     3.3.2-r6          apk                      
+libcurl                        8.12.0-r0         apk                      
 libdav1d                       1.5.0-r0          apk                      
 libdeflate                     1.22-r0           apk                      
 libdovi                        3.3.1-r0          apk                      
@@ -155,7 +155,7 @@ libsndfile                     1.2.2-r2          apk
 libsodium                      1.0.20-r0         apk                      
 libsrt                         1.5.3-r0          apk                      
 libssh                         0.11.1-r0         apk                      
-libssl3                        3.3.2-r5          apk                      
+libssl3                        3.3.2-r6          apk                      
 libstdc++                      14.2.0-r4         apk                      
 libtheora                      1.1.1-r18         apk                      
 libunibreak                    6.1-r0            apk                      
@@ -208,7 +208,7 @@ orc                            0.4.40-r1         apk
 packaging                      24.2              python                   
 pcre2                          10.43-r0          apk                      
 pillow                         11.1.0            python                   
-pip                            25.0              python                   
+pip                            25.0.1            python                   
 platformdirs                   4.2.2             python                   
 platformdirs                   4.3.6             python                   
 plexapi                        4.16.1            python                   
