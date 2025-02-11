@@ -43,7 +43,7 @@ coreutils                      9.5-r2            apk
 coreutils-env                  9.5-r2            apk                      
 coreutils-fmt                  9.5-r2            apk                      
 coreutils-sha512sum            9.5-r2            apk                      
-curl                           8.11.1-r0         apk                      
+curl                           8.12.0-r0         apk                      
 dbus-libs                      1.14.10-r4        apk                      
 decorator                      5.1.1             python                   
 deep-translator                1.11.4            python                   
@@ -116,8 +116,8 @@ libblkid                       2.40.4-r0         apk
 libbluray                      1.3.4-r1          apk                      
 libbsd                         0.12.2-r0         apk                      
 libbz2                         1.0.8-r6          apk                      
-libcrypto3                     3.3.2-r4          apk                      
-libcurl                        8.11.1-r0         apk                      
+libcrypto3                     3.3.3-r0          apk                      
+libcurl                        8.12.0-r0         apk                      
 libdav1d                       1.5.0-r0          apk                      
 libdeflate                     1.22-r0           apk                      
 libdovi                        3.3.1-r0          apk                      
@@ -155,7 +155,7 @@ libsndfile                     1.2.2-r2          apk
 libsodium                      1.0.20-r0         apk                      
 libsrt                         1.5.3-r0          apk                      
 libssh                         0.11.1-r0         apk                      
-libssl3                        3.3.2-r4          apk                      
+libssl3                        3.3.3-r0          apk                      
 libstdc++                      14.2.0-r4         apk                      
 libtheora                      1.1.1-r18         apk                      
 libunibreak                    6.1-r0            apk                      
@@ -208,12 +208,12 @@ orc                            0.4.40-r1         apk
 packaging                      24.2              python                   
 pcre2                          10.43-r0          apk                      
 pillow                         11.1.0            python                   
-pip                            25.0              python                   
+pip                            25.0.1            python                   
 platformdirs                   4.2.0             python                   
 platformdirs                   4.2.2             python                   
 procps-ng                      4.0.4-r2          apk                      
 psycopg2-binary                2.9.10            python                   
-pyc                            3.12.8-r1         apk                      
+pyc                            3.12.9-r0         apk                      
 pycountry                      23.12.11          python                   
 pydantic                       1.10.14           python                   
 pygments                       2.17.2            python                   
@@ -228,9 +228,9 @@ python-anticaptcha             1.0.0             python
 python-dateutil                2.8.2             python                   
 python-engineio                4.9.0             python                   
 python-socketio                5.11.1            python                   
-python3                        3.12.8-r1         apk                      
-python3-pyc                    3.12.8-r1         apk                      
-python3-pycache-pyc0           3.12.8-r1         apk                      
+python3                        3.12.9-r0         apk                      
+python3-pyc                    3.12.9-r0         apk                      
+python3-pycache-pyc0           3.12.9-r0         apk                      
 pytz                           2024.1            python                   
 pytz-deprecation-shim          0.1.0.post0       python                   
 pyyaml                         6.0.1             python                   
@@ -261,7 +261,7 @@ soxr                           0.1.3-r7          apk
 speexdsp                       1.2.1-r2          apk                      
 spirv-tools                    1.3.290.0-r0      apk                      
 sqlalchemy                     2.0.27            python                   
-sqlite-libs                    3.47.1-r0         apk                      
+sqlite-libs                    3.48.0-r0         apk                      
 sratom                         0.6.16-r0         apk                      
 srt                            3.5.3             python                   
 ssl_client                     1.37.0-r12        apk                      
