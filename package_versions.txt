@@ -250,7 +250,7 @@ sdl2                           2.30.9-r0         apk
 semver                         3.0.2             python                   
 semver                         3.0.3             python                   
 serd-libs                      0.32.2-r0         apk                      
-setuptools                     75.8.0            python                   
+setuptools                     75.8.1            python                   
 shaderc                        2024.0-r2         apk                      
 shadow                         4.16.0-r1         apk                      
 signalrcore                    0.9.5             python                   
