@@ -123,7 +123,7 @@ libdeflate                     1.22-r0           apk
 libdovi                        3.3.1-r0          apk                      
 libdrm                         2.4.123-r1        apk                      
 libeconf                       0.6.3-r0          apk                      
-libexpat                       2.6.4-r0          apk                      
+libexpat                       2.7.0-r0          apk                      
 libffi                         3.4.7-r0          apk                      
 libflac                        1.4.3-r1          apk                      
 libgcc                         14.2.0-r4         apk                      
@@ -134,7 +134,7 @@ libhwy                         1.0.7-r0          apk
 libidn2                        2.3.7-r0          apk                      
 libintl                        0.22.5-r0         apk                      
 libjpeg-turbo                  3.0.4-r0          apk                      
-libjxl                         0.10.3-r0         apk                      
+libjxl                         0.10.4-r0         apk                      
 libltdl                        2.4.7-r3          apk                      
 libmd                          1.1.0-r0          apk                      
 libmediainfo                   24.11-r0          apk                      
@@ -145,7 +145,7 @@ libopenmpt                     0.7.12-r0         apk
 libpanelw                      6.5_p20241006-r3  apk                      
 libpciaccess                   0.18.1-r0         apk                      
 libplacebo                     6.338.2-r3        apk                      
-libpng                         1.6.44-r0         apk                      
+libpng                         1.6.47-r0         apk                      
 libproc2                       4.0.4-r2          apk                      
 libpsl                         0.21.5-r3         apk                      
 libpulse                       17.0-r4           apk                      
@@ -173,7 +173,7 @@ libxdmcp                       1.1.5-r1          apk
 libxext                        1.3.6-r2          apk                      
 libxfixes                      6.0.1-r4          apk                      
 libxml2                        2.13.4-r5         apk                      
-libxslt                        1.1.42-r1         apk                      
+libxslt                        1.1.42-r2         apk                      
 libzen                         0.4.41-r0         apk                      
 libzmq                         4.3.5-r2          apk                      
 lilv-libs                      0.24.24-r1        apk                      
@@ -195,7 +195,7 @@ ncurses-terminfo-base          6.5_p20241006-r3  apk
 netcat-openbsd                 1.226.1.1-r0      apk                      
 nghttp2-libs                   1.64.0-r0         apk                      
 numactl                        2.0.18-r0         apk                      
-numpy                          2.2.3             python                   
+numpy                          2.2.4             python                   
 oauthlib                       3.2.2             python                   
 onevpl-libs                    2023.3.1-r2       apk                      
 oniguruma                      6.9.9-r0          apk                      
@@ -248,7 +248,7 @@ scanelf                        1.3.8-r1          apk
 sdl2                           2.30.9-r0         apk                      
 semver                         3.0.2             python                   
 serd-libs                      0.32.2-r0         apk                      
-setuptools                     76.0.0            python                   
+setuptools                     76.1.0            python                   
 shaderc                        2024.0-r2         apk                      
 shadow                         4.16.0-r1         apk                      
 signalrcore                    0.9.5             python                   
