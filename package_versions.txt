@@ -298,7 +298,7 @@ wsproto                        1.2.0             python
 x264-libs                      0.164.3108-r0     apk                     
 x265-libs                      3.6-r0            apk                     
 xvidcore                       1.3.7-r2          apk                     
-xz-libs                        5.6.3-r0          apk                     
+xz-libs                        5.6.3-r1          apk                     
 zimg                           3.0.5-r2          apk                     
 zipp                           3.19.2            python                  
 zipp                           3.20.2            python                  
