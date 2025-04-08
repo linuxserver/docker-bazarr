@@ -181,7 +181,7 @@ lxml                           4.9.4             python
 mako                           1.3.2             python                  
 markdown                       3.5.2             python                  
 markupsafe                     2.1.5             python                  
-mbedtls                        3.6.2-r0          apk                     
+mbedtls                        3.6.3-r0          apk                     
 mediainfo                      24.11-r0          apk                     
 more-itertools                 10.3.0            python                  
 mpdecimal                      4.0.0-r0          apk                     
@@ -204,9 +204,9 @@ openexr-libopenexr             3.3.2-r0          apk
 openexr-libopenexrcore         3.3.2-r0          apk                     
 opus                           1.5.2-r1          apk                     
 orc                            0.4.40-r1         apk                     
-packaging                      24.2              python                  
+packaging                      24.2              python  (+1 duplicate)  
 pcre2                          10.43-r0          apk                     
-pillow                         11.2.0            python                  
+pillow                         11.1.0            python                  
 pip                            25.0.1            python                  
 platformdirs                   4.2.0             python                  
 platformdirs                   4.2.2             python                  
@@ -291,13 +291,14 @@ webencodings                   0.5.1             python
 webrtcvad-wheels               2.0.14            python                  
 websocket-client               1.7.0             python                  
 werkzeug                       3.0.1             python                  
-wheel                          0.45.1            python  (+1 duplicate)  
+wheel                          0.45.1            python                  
+wheel                          0.46.1            python                  
 whichcraft                     0.6.1             python                  
 wsproto                        1.2.0             python                  
 x264-libs                      0.164.3108-r0     apk                     
 x265-libs                      3.6-r0            apk                     
 xvidcore                       1.3.7-r2          apk                     
-xz-libs                        5.6.3-r0          apk                     
+xz-libs                        5.6.3-r1          apk                     
 zimg                           3.0.5-r2          apk                     
 zipp                           3.17.0            python                  
 zipp                           3.19.2            python                  
