@@ -204,7 +204,7 @@ openexr-libopenexr             3.3.2-r0          apk
 openexr-libopenexrcore         3.3.2-r0          apk                     
 opus                           1.5.2-r1          apk                     
 orc                            0.4.40-r1         apk                     
-packaging                      24.2              python                  
+packaging                      24.2              python  (+1 duplicate)  
 pcre2                          10.43-r0          apk                     
 pillow                         11.1.0            python                  
 pip                            25.0.1            python                  
@@ -292,7 +292,8 @@ webencodings                   0.5.1             python
 webrtcvad-wheels               2.0.14            python                  
 websocket-client               1.8.0             python                  
 werkzeug                       3.0.6             python                  
-wheel                          0.45.1            python  (+1 duplicate)  
+wheel                          0.45.1            python                  
+wheel                          0.46.1            python                  
 whichcraft                     0.6.1             python                  
 wsproto                        1.2.0             python                  
 x264-libs                      0.164.3108-r0     apk                     
