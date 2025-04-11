@@ -63,6 +63,7 @@ ffmpeg-libswresample           6.1.2-r1          apk
 ffmpeg-libswscale              6.1.2-r1          apk                     
 ffmpeg-python                  0.2.0             python                  
 ffsubsync                      0.4.27            python                  
+filetype                       1.2.0             python                  
 findutils                      4.10.0-r0         apk                     
 flask                          3.0.3             python                  
 flask-cors                     5.0.0             python                  
@@ -213,7 +214,7 @@ platformdirs                   4.3.6             python
 plexapi                        4.16.1            python                  
 procps-ng                      4.0.4-r2          apk                     
 psycopg2-binary                2.9.10            python                  
-pyc                            3.12.9-r0         apk                     
+pyc                            3.12.10-r0        apk                     
 pycountry                      24.6.1            python                  
 pydantic                       1.10.14           python                  
 pygments                       2.19.1            python                  
@@ -228,9 +229,9 @@ python-anticaptcha             1.0.0             python
 python-dateutil                2.9.0             python                  
 python-engineio                4.11.2            python                  
 python-socketio                5.12.1            python                  
-python3                        3.12.9-r0         apk                     
-python3-pyc                    3.12.9-r0         apk                     
-python3-pycache-pyc0           3.12.9-r0         apk                     
+python3                        3.12.10-r0        apk                     
+python3-pyc                    3.12.10-r0        apk                     
+python3-pycache-pyc0           3.12.10-r0        apk                     
 pytz                           2024.2            python                  
 pytz-deprecation-shim          0.1.0.post0       python                  
 pyyaml                         6.0.2             python                  
