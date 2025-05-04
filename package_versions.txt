@@ -208,7 +208,7 @@ orc                            0.4.40-r1         apk
 packaging                      24.2              python                  
 pcre2                          10.43-r0          apk                     
 pillow                         11.2.1            python                  
-pip                            25.1              python                  
+pip                            25.1.1            python                  
 platformdirs                   4.2.2             python                  
 platformdirs                   4.3.6             python                  
 plexapi                        4.16.1            python                  
@@ -250,7 +250,7 @@ sdl2                           2.30.9-r0         apk
 semver                         3.0.2             python                  
 semver                         3.0.3             python                  
 serd-libs                      0.32.2-r0         apk                     
-setuptools                     80.0.1            python                  
+setuptools                     80.3.0            python                  
 shaderc                        2024.0-r2         apk                     
 shadow                         4.16.0-r1         apk                     
 signalrcore                    0.9.5             python                  
