@@ -204,7 +204,7 @@ ncurses-terminfo-base          6.5_p20241006-r3  apk
 netcat-openbsd                 1.226.1.1-r0      apk                      
 nghttp2-libs                   1.64.0-r0         apk                      
 numactl                        2.0.18-r0         apk                      
-numpy                          2.2.6             python                   
+numpy                          2.3.0             python                   
 oauthlib                       3.2.2             python                   
 onevpl-libs                    2023.3.1-r2       apk                      
 oniguruma                      6.9.9-r0          apk                      
@@ -223,7 +223,7 @@ platformdirs                   4.3.6             python
 plexapi                        4.16.1            python                   
 procps-ng                      4.0.4-r2          apk                      
 psycopg2-binary                2.9.10            python                   
-pyc                            3.12.10-r1        apk                      
+pyc                            3.12.11-r0        apk                      
 pycountry                      24.6.1            python                   
 pydantic                       1.10.14           python                   
 pygments                       2.19.1            python                   
@@ -238,9 +238,9 @@ python-anticaptcha             1.0.0             python
 python-dateutil                2.9.0             python                   
 python-engineio                4.11.2            python                   
 python-socketio                5.12.1            python                   
-python3                        3.12.10-r1        apk                      
-python3-pyc                    3.12.10-r1        apk                      
-python3-pycache-pyc0           3.12.10-r1        apk                      
+python3                        3.12.11-r0        apk                      
+python3-pyc                    3.12.11-r0        apk                      
+python3-pycache-pyc0           3.12.11-r0        apk                      
 pytz                           2024.2            python                   
 pytz-deprecation-shim          0.1.0.post0       python                   
 pyyaml                         6.0.2             python                   
