@@ -277,7 +277,7 @@ packaging                      24.2              python
 paste                          1.0.14            rust-crate                   
 pcre2                          10.43-r1          apk                          
 pillow                         11.3.0            python                       
-pip                            25.1.1            python                       
+pip                            25.2              python                       
 platformdirs                   4.2.2             python                       
 platformdirs                   4.3.6             python                       
 plexapi                        4.16.1            python                       
