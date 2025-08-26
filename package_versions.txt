@@ -234,7 +234,7 @@ lilv-libs                      0.24.26-r0        apk
 linux-pam                      1.7.0-r4          apk                          
 linux-raw-sys                  0.4.12            rust-crate                   
 log                            0.4.20            rust-crate                   
-lxml                           6.0.0             python                       
+lxml                           6.0.1             python                       
 mako                           1.3.8             python                       
 markdown                       3.7               python                       
 markupsafe                     2.1.5             python                       
