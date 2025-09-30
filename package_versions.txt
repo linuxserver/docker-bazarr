@@ -73,7 +73,7 @@ coreutils-sha512sum            9.7-r1            apk
 crc                            3.3.0             rust-crate                   
 crc-catalog                    2.4.0             rust-crate                   
 crossbeam                      0.8.4             rust-crate                   
-crossbeam-channel              0.5.11            rust-crate                   
+crossbeam-channel              0.5.14            rust-crate                   
 crossbeam-deque                0.8.5             rust-crate                   
 crossbeam-epoch                0.9.18            rust-crate                   
 crossbeam-queue                0.3.11            rust-crate                   
@@ -179,7 +179,7 @@ libdeflate                     1.23-r0           apk
 libdovi                        3.3.1-r1          apk                          
 libdrm                         2.4.124-r0        apk                          
 libeconf                       0.6.3-r0          apk                          
-libexpat                       2.7.2-r0          apk                          
+libexpat                       2.7.3-r0          apk                          
 libffi                         3.4.8-r0          apk                          
 libflac                        1.4.3-r1          apk                          
 libgcc                         14.2.0-r6         apk                          
@@ -315,7 +315,7 @@ rand_chacha                    0.3.1             rust-crate
 rand_core                      0.6.4             rust-crate                   
 rarfile                        4.2               python                       
 rav1e                          0.7.1             rust-crate                   
-rav1e-libs                     0.7.1-r1          apk                          
+rav1e-libs                     0.7.1-r2          apk                          
 rayon                          1.8.0             rust-crate                   
 rayon-core                     1.12.0            rust-crate                   
 readline                       8.2.13-r1         apk                          
