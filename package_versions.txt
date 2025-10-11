@@ -286,7 +286,7 @@ proc-macro2                    1.0.76            rust-crate
 procps-ng                      4.0.4-r3          apk                          
 profiling                      1.0.13            rust-crate                   
 profiling-procmacros           1.0.13            rust-crate                   
-psycopg2-binary                2.9.10            python                       
+psycopg2-binary                2.9.11            python                       
 pyc                            3.12.11-r0        apk                          
 pycountry                      24.6.1            python                       
 pydantic                       1.10.14           python                       
