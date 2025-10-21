@@ -275,7 +275,7 @@ opus                           1.5.2-r1          apk
 orc                            0.4.40-r1         apk                          
 packaging                      24.2              python                       
 paste                          1.0.14            rust-crate                   
-pcre2                          10.43-r1          apk                          
+pcre2                          10.46-r0          apk                          
 pillow                         12.0.0            python                       
 pip                            25.2              python                       
 platformdirs                   4.2.2             python                       
