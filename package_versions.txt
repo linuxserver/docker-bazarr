@@ -50,7 +50,7 @@ certifi                        2024.12.14             python
 cfg-if                         1.0.0                  rust-crate                   
 chardet                        5.2.0                  python                       
 charset-normalizer             3.4.1                  python                       
-cjson                          1.7.18-r1              apk                          
+cjson                          1.7.19-r0              apk                          
 clap                           4.4.14                 rust-crate                   
 clap_builder                   4.4.14                 rust-crate                   
 clap_complete                  4.4.6                  rust-crate                   
@@ -277,7 +277,7 @@ packaging                      24.2                   python
 paste                          1.0.14                 rust-crate                   
 pcre2                          10.46-r0               apk                          
 pillow                         12.0.0                 python                       
-pip                            25.2                   python                       
+pip                            25.3                   python                       
 platformdirs                   4.2.2                  python                       
 platformdirs                   4.3.6                  python                       
 plexapi                        4.16.1                 python                       
