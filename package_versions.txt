@@ -42,7 +42,7 @@ blinker                        1.8.2                  python
 brotli-libs                    1.1.0-r2               apk                          
 busybox                        1.37.0-r20             apk                          
 busybox-binsh                  1.37.0-r20             apk                          
-c-ares                         1.34.5-r0              apk                          
+c-ares                         1.34.6-r0              apk                          
 ca-certificates                20250911-r0            apk                          
 ca-certificates-bundle         20250911-r0            apk                          
 catatonit                      0.2.1-r0               apk                          
@@ -372,7 +372,7 @@ trakit                         0.2.2                  python
 typeguard                      4.3.0                  python                       
 typing-extensions              4.12.2                 python      (+1 duplicate)   
 tzdata                         2024.2                 python                       
-tzdata                         2025b-r0               apk                          
+tzdata                         2025c-r0               apk                          
 tzlocal                        5.2                    python                       
 unicode-ident                  1.0.12                 rust-crate                   
 unicode-width                  0.1.11                 rust-crate                   
