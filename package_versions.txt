@@ -262,7 +262,7 @@ num-integer                    0.1.45            rust-crate
 num-rational                   0.4.1             rust-crate                   
 num-traits                     0.2.17            rust-crate                   
 numactl                        2.0.18-r0         apk                          
-numpy                          2.3.5             python                       
+numpy                          2.4.0             python                       
 oauthlib                       3.2.2             python                       
 once_cell                      1.19.0            rust-crate                   
 onevpl-libs                    2023.3.1-r2       apk                          
