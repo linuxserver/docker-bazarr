@@ -233,7 +233,7 @@ libxslt                        1.1.43-r3              apk
 libzen                         0.4.41-r0              apk                          
 libzmq                         4.3.5-r2               apk                          
 lilv-libs                      0.24.26-r0             apk                          
-linux-pam                      1.7.1-r1               apk                          
+linux-pam                      1.7.1-r2               apk                          
 linux-raw-sys                  0.9.4                  rust-crate                   
 log                            0.4.27                 rust-crate                   
 lxml                           6.0.2                  python                       
