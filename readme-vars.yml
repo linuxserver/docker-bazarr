@@ -72,7 +72,7 @@ init_diagram: |
     svc-cron -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine:3.22"
+    "baseimage-alpine:3.23"
   }
   "bazarr:latest" <- Base Images
 # changelog
