@@ -347,7 +347,7 @@ soxr                           0.1.3-r7               apk
 speexdsp                       1.2.1-r2               apk                          
 spirv-tools                    1.4.321.0-r1           apk                          
 sqlalchemy                     2.0.37                 python                       
-sqlite-libs                    3.51.1-r0              apk                          
+sqlite-libs                    3.51.2-r0              apk                          
 sratom                         0.6.18-r0              apk                          
 srt                            3.5.3                  python                       
 ssl_client                     1.37.0-r30             apk                          
@@ -395,7 +395,7 @@ wyz                            0.5.1                  rust-crate
 x264-libs                      0.164.3108-r1          apk                          
 x265-libs                      4.1-r0                 apk                          
 xvidcore                       1.3.7-r2               apk                          
-xz-libs                        5.8.1-r0               apk                          
+xz-libs                        5.8.2-r0               apk                          
 y4m                            0.8.0                  rust-crate                   
 zerocopy                       0.8.25                 rust-crate                   
 zimg                           3.0.6-r0               apk                          
