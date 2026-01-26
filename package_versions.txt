@@ -270,8 +270,7 @@ once_cell                      1.21.3                 rust-crate
 oniguruma                      6.9.10-r0              apk                          
 opus                           1.5.2-r1               apk                          
 orc                            0.4.41-r0              apk                          
-packaging                      25.0                   python                       
-packaging                      26.0                   python                       
+packaging                      26.0                   python      (+1 duplicate)   
 paste                          1.0.15                 rust-crate                   
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.47-r0               apk                          
@@ -330,7 +329,7 @@ scanelf                        1.3.8-r2               apk
 semver                         3.0.2                  python                       
 semver                         3.0.3                  python                       
 serd-libs                      0.32.4-r0              apk                          
-setuptools                     80.10.1                python                       
+setuptools                     80.10.2                python                       
 shaderc                        2025.3-r0              apk                          
 shadow                         4.18.0-r0              apk                          
 signal-hook                    0.3.18                 rust-crate                   
@@ -386,8 +385,7 @@ webencodings                   0.5.1                  python
 webrtcvad-wheels               2.0.14                 python                       
 websocket-client               1.8.0                  python                       
 werkzeug                       3.0.6                  python                       
-wheel                          0.45.1                 python                       
-wheel                          0.46.3                 python                       
+wheel                          0.46.3                 python      (+1 duplicate)   
 whichcraft                     0.6.1                  python                       
 wsproto                        1.2.0                  python                       
 wyz                            0.5.1                  rust-crate                   
