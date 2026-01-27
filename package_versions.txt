@@ -139,9 +139,8 @@ html5lib                       1.1                    python
 hwdata-pci                     0.401-r0               apk                          
 idna                           3.10                   python                       
 importlib-metadata             7.2.1                  python                       
-importlib-metadata             8.0.0                  python                       
+importlib-metadata             8.7.1                  python                       
 importlib-resources            6.4.5                  python                       
-inflect                        7.3.1                  python                       
 inflect                        7.4.0                  python                       
 interpolate_name               0.2.4                  rust-crate                   
 is_terminal_polyfill           1.70.1                 rust-crate                   
@@ -149,10 +148,9 @@ itertools                      0.10.5                 rust-crate
 itertools                      0.14.0                 rust-crate                   
 itsdangerous                   2.2.0                  python                       
 ivf                            0.1.4                  rust-crate                   
-jaraco-collections             5.1.0                  python                       
-jaraco-context                 5.3.0                  python                       
-jaraco-functools               4.0.1                  python                       
-jaraco-text                    3.12.1                 python                       
+jaraco-context                 6.1.0                  python                       
+jaraco-functools               4.4.0                  python                       
+jaraco-text                    4.0.0                  python                       
 jinja2                         3.1.5                  python                       
 jq                             1.8.1-r0               apk                          
 js2py                          0.74                   python                       
@@ -173,12 +171,12 @@ libbluray                      1.4.0-r0               apk
 libbsd                         0.12.2-r0              apk                          
 libbz2                         1.0.8-r6               apk                          
 libc                           0.2.172                rust-crate  (+1 duplicate)   
-libcrypto3                     3.5.4-r0               apk                          
+libcrypto3                     3.5.5-r0               apk                          
 libcurl                        8.17.0-r1              apk                          
 libdav1d                       1.5.2-r0               apk                          
 libdovi                        3.3.2-r0               apk                          
 libdrm                         2.4.131-r0             apk                          
-libeconf                       0.8.0-r0               apk                          
+libeconf                       0.8.3-r0               apk                          
 libexpat                       2.7.3-r0               apk                          
 libffi                         3.5.2-r0               apk                          
 libflac                        1.4.3-r2               apk                          
@@ -199,7 +197,7 @@ libopenmpt                     0.8.3-r0               apk
 libpanelw                      6.5_p20251123-r0       apk                          
 libpciaccess                   0.18.1-r1              apk                          
 libplacebo                     7.351.0-r0             apk                          
-libpng                         1.6.53-r0              apk                          
+libpng                         1.6.54-r0              apk                          
 libproc2                       4.0.5-r0               apk                          
 libpsl                         0.21.5-r3              apk                          
 libpulse                       17.0-r5                apk                          
@@ -209,7 +207,7 @@ libsndfile                     1.2.2-r2               apk
 libsodium                      1.0.20-r1              apk                          
 libsrt                         1.5.3-r1               apk                          
 libssh                         0.11.3-r0              apk                          
-libssl3                        3.5.4-r0               apk                          
+libssl3                        3.5.5-r0               apk                          
 libstdc++                      15.2.0-r2              apk                          
 libtheora                      1.2.0-r0               apk                          
 libudfread                     1.2.0-r0               apk                          
@@ -245,7 +243,7 @@ mbedtls                        3.6.5-r0               apk
 mediainfo                      25.09-r0               apk                          
 memchr                         2.7.5                  rust-crate                   
 minimal-lexical                0.2.1                  rust-crate                   
-more-itertools                 10.3.0                 python                       
+more-itertools                 10.8.0                 python                       
 mpdecimal                      4.0.1-r0               apk                          
 mpg123-libs                    1.33.3-r0              apk                          
 msgpack                        1.1.0                  python                       
@@ -272,14 +270,14 @@ once_cell                      1.21.3                 rust-crate
 oniguruma                      6.9.10-r0              apk                          
 opus                           1.5.2-r1               apk                          
 orc                            0.4.41-r0              apk                          
-packaging                      24.2                   python                       
+packaging                      26.0                   python      (+1 duplicate)   
 paste                          1.0.15                 rust-crate                   
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.47-r0               apk                          
 pillow                         12.1.0                 python                       
 pip                            25.3                   python                       
-platformdirs                   4.2.2                  python                       
 platformdirs                   4.3.6                  python                       
+platformdirs                   4.4.0                  python                       
 plexapi                        4.16.1                 python                       
 ppv-lite86                     0.2.21                 rust-crate                   
 proc-macro2                    1.0.95                 rust-crate                   
@@ -331,7 +329,7 @@ scanelf                        1.3.8-r2               apk
 semver                         3.0.2                  python                       
 semver                         3.0.3                  python                       
 serd-libs                      0.32.4-r0              apk                          
-setuptools                     80.9.0                 python                       
+setuptools                     80.10.2                python                       
 shaderc                        2025.3-r0              apk                          
 shadow                         4.18.0-r0              apk                          
 signal-hook                    0.3.18                 rust-crate                   
@@ -363,11 +361,10 @@ thiserror                      2.0.12                 rust-crate
 tinyvec                        1.9.0                  rust-crate                   
 tinyxml2                       11.0.0-r0              apk                          
 tld                            0.13                   python                       
-tomli                          2.0.1                  python                       
+tomli                          2.4.0                  python                       
 tqdm                           4.67.1                 python                       
 trakit                         0.2.2                  python                       
-typeguard                      4.3.0                  python                       
-typing-extensions              4.12.2                 python      (+1 duplicate)   
+typing-extensions              4.12.2                 python                       
 tzdata                         2024.2                 python                       
 tzdata                         2025c-r0               apk                          
 tzlocal                        5.2                    python                       
@@ -388,7 +385,7 @@ webencodings                   0.5.1                  python
 webrtcvad-wheels               2.0.14                 python                       
 websocket-client               1.8.0                  python                       
 werkzeug                       3.0.6                  python                       
-wheel                          0.45.1                 python      (+1 duplicate)   
+wheel                          0.46.3                 python      (+1 duplicate)   
 whichcraft                     0.6.1                  python                       
 wsproto                        1.2.0                  python                       
 wyz                            0.5.1                  rust-crate                   
@@ -399,8 +396,8 @@ xz-libs                        5.8.2-r0               apk
 y4m                            0.8.0                  rust-crate                   
 zerocopy                       0.8.25                 rust-crate                   
 zimg                           3.0.6-r0               apk                          
-zipp                           3.19.2                 python                       
 zipp                           3.20.2                 python                       
+zipp                           3.23.0                 python                       
 zix-libs                       0.6.2-r0               apk                          
 zlib                           1.3.1-r2               apk                          
 zstd-libs                      1.5.7-r2               apk                          
