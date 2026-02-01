@@ -7,7 +7,7 @@ aligned-vec                    0.6.4                  rust-crate
 alpine-baselayout              3.7.1-r8               apk                          
 alpine-baselayout-data         3.7.1-r8               apk                          
 alpine-keys                    2.6-r0                 apk                          
-alpine-release                 3.23.2-r0              apk                          
+alpine-release                 3.23.3-r0              apk                          
 alsa-lib                       1.2.14-r2              apk                          
 aniso8601                      10.0.0                 python                       
 anstream                       0.6.19                 rust-crate                   
@@ -275,7 +275,7 @@ paste                          1.0.15                 rust-crate
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.47-r0               apk                          
 pillow                         12.1.0                 python                       
-pip                            25.3                   python                       
+pip                            26.0                   python                       
 platformdirs                   4.3.6                  python                       
 platformdirs                   4.4.0                  python                       
 plexapi                        4.16.1                 python                       
