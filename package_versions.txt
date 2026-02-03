@@ -177,7 +177,7 @@ libdav1d                       1.5.2-r0               apk
 libdovi                        3.3.2-r0               apk                          
 libdrm                         2.4.131-r0             apk                          
 libeconf                       0.8.3-r0               apk                          
-libexpat                       2.7.3-r0               apk                          
+libexpat                       2.7.4-r0               apk                          
 libffi                         3.5.2-r0               apk                          
 libflac                        1.4.3-r2               apk                          
 libgcc                         15.2.0-r2              apk                          
