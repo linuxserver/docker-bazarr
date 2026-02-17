@@ -273,7 +273,7 @@ packaging                      26.0                   python      (+1 duplicate)
 paste                          1.0.15                 rust-crate                   
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.47-r0               apk                          
-pillow                         12.1.0                 python                       
+pillow                         12.1.1                 python                       
 pip                            26.0.1                 python                       
 platformdirs                   4.3.6                  python                       
 platformdirs                   4.4.0                  python                       
