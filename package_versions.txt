@@ -197,7 +197,7 @@ libopenmpt                     0.8.3-r0               apk
 libpanelw                      6.5_p20251123-r0       apk                          
 libpciaccess                   0.18.1-r1              apk                          
 libplacebo                     7.351.0-r0             apk                          
-libpng                         1.6.54-r0              apk                          
+libpng                         1.6.55-r0              apk                          
 libproc2                       4.0.5-r0               apk                          
 libpsl                         0.21.5-r3              apk                          
 libpulse                       17.0-r5                apk                          
