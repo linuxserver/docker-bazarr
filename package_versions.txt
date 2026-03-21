@@ -329,7 +329,7 @@ shaderc                        2025.3-r0              apk
 shadow                         4.18.0-r0              apk                          
 signal-hook                    0.3.18                 rust-crate                   
 signal-hook-registry           1.4.5                  rust-crate                   
-signalrcore                    0.9.71                 python                       
+signalrcore                    0.9.5                  python                       
 simd_helpers                   0.1.0                  rust-crate                   
 simple-websocket               1.1.0                  python                       
 six                            1.17.0                 python                       
