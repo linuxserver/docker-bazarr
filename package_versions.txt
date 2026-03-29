@@ -4,8 +4,8 @@ acl-libs                       2.3.2-r1               apk
 alembic                        1.18.4                 python                       
 aligned                        0.4.2                  rust-crate                   
 aligned-vec                    0.6.4                  rust-crate                   
-alpine-baselayout              3.7.1-r8               apk                          
-alpine-baselayout-data         3.7.1-r8               apk                          
+alpine-baselayout              3.7.2-r0               apk                          
+alpine-baselayout-data         3.7.2-r0               apk                          
 alpine-keys                    2.6-r0                 apk                          
 alpine-release                 3.23.3-r0              apk                          
 alsa-lib                       1.2.14-r2              apk                          
