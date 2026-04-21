@@ -282,7 +282,7 @@ ppv-lite86                     0.2.21                 rust-crate
 proc-macro2                    1.0.95                 rust-crate                   
 procps-ng                      4.0.5-r0               apk                          
 profiling                      1.0.16                 rust-crate                   
-psycopg2-binary                2.9.11                 python                       
+psycopg2-binary                2.9.12                 python                       
 pyc                            3.12.13-r0             apk                          
 pycountry                      26.2.16                python                       
 pydantic                       1.10.14                python                       
