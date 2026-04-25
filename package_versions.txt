@@ -269,7 +269,7 @@ oniguruma                      6.9.10-r0              apk
 opus                           1.5.2-r1               apk                          
 orc                            0.4.41-r0              apk                          
 packaging                      26.0                   python                       
-packaging                      26.1                   python                       
+packaging                      26.2                   python                       
 paste                          1.0.15                 rust-crate                   
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.47-r0               apk                          
