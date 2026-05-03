@@ -251,7 +251,7 @@ musl-utils                     1.2.5-r23              apk
 ncurses-terminfo-base          6.5_p20251123-r0       apk                          
 netcat-openbsd                 1.234.1-r0             apk                          
 new_debug_unreachable          1.0.6                  rust-crate                   
-nghttp2-libs                   1.68.0-r0              apk                          
+nghttp2-libs                   1.69.0-r0              apk                          
 nghttp3                        1.13.1-r0              apk                          
 nom                            7.1.3                  rust-crate                   
 nom                            8.0.0                  rust-crate                   
@@ -361,7 +361,7 @@ tqdm                           4.67.3                 python
 trakit                         0.2.5                  python                       
 typing-extensions              4.15.0                 python                       
 tzdata                         2025.3                 python                       
-tzdata                         2026a-r0               apk                          
+tzdata                         2026b-r0               apk                          
 tzlocal                        5.3.1                  python                       
 unicode-ident                  1.0.18                 rust-crate                   
 unicode-width                  0.2.1                  rust-crate                   
