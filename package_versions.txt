@@ -7,7 +7,7 @@ aligned-vec                    0.6.4                  rust-crate
 alpine-baselayout              3.7.2-r0               apk                          
 alpine-baselayout-data         3.7.2-r0               apk                          
 alpine-keys                    2.6-r0                 apk                          
-alpine-release                 3.23.4-r0              apk                          
+alpine-release                 3.23.5-r0              apk                          
 alsa-lib                       1.2.14-r2              apk                          
 aniso8601                      10.0.0                 python                       
 anstream                       0.6.19                 rust-crate                   
@@ -177,7 +177,7 @@ libdav1d                       1.5.2-r0               apk
 libdovi                        3.3.2-r0               apk                          
 libdrm                         2.4.131-r0             apk                          
 libeconf                       0.8.3-r0               apk                          
-libexpat                       2.8.1-r0               apk                          
+libexpat                       2.8.2-r0               apk                          
 libffi                         3.5.2-r0               apk                          
 libflac                        1.4.3-r2               apk                          
 libgcc                         15.2.0-r2              apk                          
