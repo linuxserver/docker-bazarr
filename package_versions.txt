@@ -176,7 +176,7 @@ libdav1d                       1.5.2-r0               apk
 libdovi                        3.3.2-r0               apk                          
 libdrm                         2.4.131-r0             apk                          
 libeconf                       0.8.3-r0               apk                          
-libexpat                       2.8.2-r0               apk                          
+libexpat                       2.8.3-r0               apk                          
 libffi                         3.5.2-r0               apk                          
 libflac                        1.4.3-r2               apk                          
 libgcc                         15.2.0-r2              apk                          
@@ -233,7 +233,7 @@ lilv-libs                      0.24.26-r0             apk
 linux-pam                      1.7.1-r2               apk                          
 linux-raw-sys                  0.9.4                  rust-crate                   
 log                            0.4.27                 rust-crate                   
-lxml                           6.1.1                  python                       
+lxml                           6.1.2                  python                       
 mako                           1.3.12                 python                       
 markdown                       3.10.2                 python                       
 markupsafe                     3.0.3                  python                       
