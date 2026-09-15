@@ -110,7 +110,7 @@ filetype                       1.2.0                  python
 findutils                      4.10.0-r0              apk                          
 flask                          3.1.3                  python                       
 flask-cors                     6.0.5                  python                       
-flask-migrate                  4.1.0                  python      (+1 duplicate)   
+flask-migrate                  4.1.0                  python                       
 flask-restx                    1.3.0                  python                       
 flask-socketio                 5.6.1                  python                       
 flask-sqlalchemy               3.1.1                  python                       
@@ -152,7 +152,7 @@ jaraco-functools               4.4.0                  python
 jaraco-text                    4.0.0                  python                       
 jinja2                         3.1.6                  python                       
 jq                             1.8.2-r0               apk                          
-js2py                          0.74                   python      (+1 duplicate)   
+js2py                          0.74                   python                       
 json-c                         0.18-r1                apk                          
 json-tricks                    3.17.3                 python                       
 jsonschema                     4.17.3                 python                       
@@ -281,7 +281,7 @@ ppv-lite86                     0.2.21                 rust-crate
 proc-macro2                    1.0.95                 rust-crate                   
 procps-ng                      4.0.5-r0               apk                          
 profiling                      1.0.16                 rust-crate                   
-psycopg2-binary                2.9.12                 python                       
+psycopg2-binary                2.9.13                 python                       
 pyc                            3.12.14-r0             apk                          
 pycountry                      26.2.16                python                       
 pydantic                       1.10.14                python                       
@@ -290,7 +290,7 @@ pyjsparser                     2.7.1                  python
 pymediainfo                    7.0.1                  python                       
 pyparsing                      3.3.2                  python                       
 pyrsistent                     0.20.0                 python                       
-pysocks                        1.7.1                  python      (+1 duplicate)   
+pysocks                        1.7.1                  python                       
 pysrt                          1.1.2                  python                       
 pysubs2                        1.8.1                  python                       
 python-anticaptcha             0.1.dev191+g6d2bad22e  python                       
@@ -389,7 +389,7 @@ wyz                            0.5.1                  rust-crate
 x264-libs                      0.164.3108-r1          apk                          
 x265-libs                      4.1-r0                 apk                          
 xvidcore                       1.3.7-r2               apk                          
-xz-libs                        5.8.3-r0               apk                          
+xz-libs                        5.8.4-r0               apk                          
 y4m                            0.8.0                  rust-crate                   
 zerocopy                       0.8.25                 rust-crate                   
 zimg                           3.0.6-r0               apk                          
