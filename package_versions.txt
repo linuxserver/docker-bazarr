@@ -7,7 +7,7 @@ aligned-vec                    0.6.4                  rust-crate
 alpine-baselayout              3.7.2-r0               apk                          
 alpine-baselayout-data         3.7.2-r0               apk                          
 alpine-keys                    2.6-r0                 apk                          
-alpine-release                 3.23.5-r0              apk                          
+alpine-release                 3.23.6-r0              apk                          
 alsa-lib                       1.2.14-r2              apk                          
 aniso8601                      10.0.1                 python                       
 anstream                       0.6.19                 rust-crate                   
@@ -45,8 +45,8 @@ brotli-libs                    1.2.0-r0               apk
 busybox                        1.37.0-r30             apk                          
 busybox-binsh                  1.37.0-r30             apk                          
 c-ares                         1.34.8-r0              apk                          
-ca-certificates                20260611-r0            apk                          
-ca-certificates-bundle         20260611-r0            apk                          
+ca-certificates                20260909-r0            apk                          
+ca-certificates-bundle         20260909-r0            apk                          
 catatonit                      0.2.1-r0               apk                          
 certifi                        2026.6.17              python                       
 cfg-if                         1.0.1                  rust-crate                   
@@ -362,7 +362,7 @@ tqdm                           4.68.3                 python
 trakit                         0.2.5                  python                       
 typing-extensions              4.15.0                 python                       
 tzdata                         2026.2                 python                       
-tzdata                         2026c-r0               apk                          
+tzdata                         2026d-r0               apk                          
 tzlocal                        5.4.3                  python                       
 unicode-ident                  1.0.18                 rust-crate                   
 unicode-width                  0.2.1                  rust-crate                   
