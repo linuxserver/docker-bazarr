@@ -170,7 +170,7 @@ libbluray                      1.4.0-r0               apk
 libbsd                         0.12.2-r0              apk                          
 libbz2                         1.0.8-r6               apk                          
 libc                           0.2.172                rust-crate  (+1 duplicate)   
-libcrypto3                     3.5.8-r0               apk                          
+libcrypto3                     3.5.9-r0               apk                          
 libcurl                        8.22.0-r0              apk                          
 libdav1d                       1.5.2-r0               apk                          
 libdovi                        3.3.2-r0               apk                          
@@ -196,7 +196,7 @@ libopenmpt                     0.8.6-r0               apk
 libpanelw                      6.5_p20251123-r0       apk                          
 libpciaccess                   0.18.1-r1              apk                          
 libplacebo                     7.351.0-r0             apk                          
-libpng                         1.6.58-r1              apk                          
+libpng                         1.6.59-r0              apk                          
 libproc2                       4.0.5-r0               apk                          
 libpsl                         0.21.5-r3              apk                          
 libpulse                       17.0-r5                apk                          
@@ -206,7 +206,7 @@ libsndfile                     1.2.2-r2               apk
 libsodium                      1.0.20-r1              apk                          
 libsrt                         1.5.3-r1               apk                          
 libssh                         0.11.4-r0              apk                          
-libssl3                        3.5.8-r0               apk                          
+libssl3                        3.5.9-r0               apk                          
 libstdc++                      15.2.0-r2              apk                          
 libtheora                      1.2.0-r0               apk                          
 libudfread                     1.2.0-r0               apk                          
