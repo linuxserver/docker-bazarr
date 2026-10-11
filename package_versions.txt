@@ -362,7 +362,7 @@ tqdm                           4.68.3                 python
 trakit                         0.2.5                  python                       
 typing-extensions              4.15.0                 python                       
 tzdata                         2026.2                 python                       
-tzdata                         2026d-r0               apk                          
+tzdata                         2026e-r0               apk                          
 tzlocal                        5.4.3                  python                       
 unicode-ident                  1.0.18                 rust-crate                   
 unicode-width                  0.2.1                  rust-crate                   
