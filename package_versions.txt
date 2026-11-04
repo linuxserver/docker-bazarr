@@ -80,7 +80,7 @@ crossbeam-deque                0.8.6                  rust-crate
 crossbeam-epoch                0.9.18                 rust-crate                   
 crossbeam-queue                0.3.12                 rust-crate                   
 crossbeam-utils                0.8.21                 rust-crate                   
-curl                           8.22.0-r0              apk                          
+curl                           8.23.0-r0              apk                          
 dbus-libs                      1.16.2-r1              apk                          
 decorator                      5.3.1                  python                       
 deep-translator                1.11.4                 python                       
@@ -171,12 +171,12 @@ libbsd                         0.12.2-r0              apk
 libbz2                         1.0.8-r6               apk                          
 libc                           0.2.172                rust-crate  (+1 duplicate)   
 libcrypto3                     3.5.9-r0               apk                          
-libcurl                        8.22.0-r0              apk                          
+libcurl                        8.23.0-r0              apk                          
 libdav1d                       1.5.2-r0               apk                          
 libdovi                        3.3.2-r0               apk                          
 libdrm                         2.4.131-r0             apk                          
 libeconf                       0.8.3-r0               apk                          
-libexpat                       2.9.0-r0               apk                          
+libexpat                       2.10.0-r0              apk                          
 libffi                         3.5.2-r0               apk                          
 libflac                        1.4.3-r2               apk                          
 libgcc                         15.2.0-r2              apk                          
@@ -272,7 +272,7 @@ paste                          1.0.15                 rust-crate
 pastey                         0.1.0                  rust-crate                   
 pcre2                          10.49-r0               apk                          
 pillow                         13.0.0                 python                       
-pip                            26.2.2                 python                       
+pip                            26.3                   python                       
 platformdirs                   4.10.0                 python                       
 platformdirs                   4.4.0                  python                       
 plexapi                        4.18.0                 python                       
